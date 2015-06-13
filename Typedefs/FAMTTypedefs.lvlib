@@ -6,7 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="CommandSelector.ctl" Type="VI" URL="../CommandSelector.ctl"/>
 	<Item Name="ControllerData.ctl" Type="VI" URL="../ControllerData.ctl"/>
-	<Item Name="ForceDemand.ctl" Type="VI" URL="../ForceDemand.ctl"/>
+	<Item Name="ForceSetpoint.ctl" Type="VI" URL="../ForceSetpoint.ctl"/>
 	<Item Name="InputData.ctl" Type="VI" URL="../InputData.ctl"/>
 	<Item Name="OutputData.ctl" Type="VI" URL="../OutputData.ctl"/>
 	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
