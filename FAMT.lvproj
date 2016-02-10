@@ -36,8 +36,15 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Configuration" Type="Folder">
-			<Item Name="SystemController" Type="Folder">
+			<Item Name="Compensator" Type="Folder">
+				<Item Name="FlowControlValveCompensator.ctl" Type="VI" URL="../Configuration/FlowControlValveCompensator.ctl"/>
+				<Item Name="FlowControlValveOutputRange.ctl" Type="VI" URL="../Configuration/FlowControlValveOutputRange.ctl"/>
 				<Item Name="PIDGains.ctl" Type="VI" URL="../Configuration/PIDGains.ctl"/>
+				<Item Name="PressureTransducerCompensator.ctl" Type="VI" URL="../Configuration/PressureTransducerCompensator.ctl"/>
+				<Item Name="PressureTransducerOutputRange.ctl" Type="VI" URL="../Configuration/PressureTransducerOutputRange.ctl"/>
+			</Item>
+			<Item Name="SystemController" Type="Folder">
+				<Item Name="ControllerType.ctl" Type="VI" URL="../Configuration/ControllerType.ctl"/>
 				<Item Name="SystemController.ctl" Type="VI" URL="../Configuration/SystemController.ctl"/>
 			</Item>
 			<Item Name="TestParameters" Type="Folder">
@@ -65,8 +72,18 @@
 				</Item>
 				<Item Name="ApplicationElements.ctl" Type="VI" URL="../Model/ApplicationElements/ApplicationElements.ctl"/>
 				<Item Name="SystemController.lvclass" Type="LVClass" URL="../Model/ApplicationElements/SystemController/SystemController.lvclass"/>
+				<Item Name="PressureTransducerCompensator.lvclass" Type="LVClass" URL="../Model/ApplicationElements/PressureTransducerCompensator/PressureTransducerCompensator.lvclass"/>
+				<Item Name="PressureTransducerCompensator_Axial.lvclass" Type="LVClass" URL="../Model/ApplicationElements/PressureTransducerCompensator_Axial/PressureTransducerCompensator_Axial.lvclass"/>
+				<Item Name="PressureTransducerCompensator_Lateral.lvclass" Type="LVClass" URL="../Model/ApplicationElements/PressureTransducerCompensator_Lateral/PressureTransducerCompensator_Lateral.lvclass"/>
 				<Item Name="TestMonitor.lvclass" Type="LVClass" URL="../Model/ApplicationElements/TestMonitor/TestMonitor.lvclass"/>
-				<Item Name="ForceSensorCalculatorTC.lvclass" Type="LVClass" URL="../Model/ApplicationElements/ForceSensorCalculatorTC/ForceSensorCalculatorTC.lvclass"/>
+				<Item Name="ForceSensorCalculator_Axial.lvclass" Type="LVClass" URL="../Model/ApplicationElements/ForceSensorCalculator_Axial/ForceSensorCalculator_Axial.lvclass"/>
+				<Item Name="ForceSensorCalculator_Lateral.lvclass" Type="LVClass" URL="../Model/ApplicationElements/ForceSensorCalculator_Lateral/ForceSensorCalculator_Lateral.lvclass"/>
+				<Item Name="FlowControlValveCompensator.lvclass" Type="LVClass" URL="../Model/ApplicationElements/FlowControlValveCompensator/FlowControlValveCompensator.lvclass"/>
+				<Item Name="FlowControlValveCompensator_Axial.lvclass" Type="LVClass" URL="../Model/ApplicationElements/FlowControlValveCompensator_Axial/FlowControlValveCompensator_Axial.lvclass"/>
+				<Item Name="FlowControlValveCompensator_Lateral.lvclass" Type="LVClass" URL="../Model/ApplicationElements/FlowControlValveCompensator_Lateral/FlowControlValveCompensator_Lateral.lvclass"/>
+				<Item Name="DualActingPneumaticCylinder.lvclass" Type="LVClass" URL="../Model/ApplicationElements/DualActingPneumaticCylinder/DualActingPneumaticCylinder.lvclass"/>
+				<Item Name="DualActingPneumaticCylinder_Axial.lvclass" Type="LVClass" URL="../Model/ApplicationElements/DualActingPneumaticCylinder_Axial/DualActingPneumaticCylinder_Axial.lvclass"/>
+				<Item Name="DualActingPneumaticCylinder_Lateral.lvclass" Type="LVClass" URL="../Model/ApplicationElements/DualActingPneumaticCylinder_Lateral/DualActingPneumaticCylinder_Lateral.lvclass"/>
 			</Item>
 			<Item Name="ILCSim1TC" Type="Folder">
 				<Item Name="ILCSim1TC.lvclass" Type="LVClass" URL="../Model/ILCSim1TC/ILCSim1TC.lvclass"/>

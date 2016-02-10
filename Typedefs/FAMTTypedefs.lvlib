@@ -5,10 +5,14 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="CommandSelector.ctl" Type="VI" URL="../CommandSelector.ctl"/>
+	<Item Name="CompensatorOutput.ctl" Type="VI" URL="../CompensatorOutput.ctl"/>
 	<Item Name="ControllerData.ctl" Type="VI" URL="../ControllerData.ctl"/>
+	<Item Name="DualActingPneumaticCylinder.ctl" Type="VI" URL="../DualActingPneumaticCylinder.ctl"/>
+	<Item Name="FlowControlValveSetpoint.ctl" Type="VI" URL="../FlowControlValveSetpoint.ctl"/>
 	<Item Name="ForceSetpoint.ctl" Type="VI" URL="../ForceSetpoint.ctl"/>
 	<Item Name="InputData.ctl" Type="VI" URL="../InputData.ctl"/>
 	<Item Name="OutputData.ctl" Type="VI" URL="../OutputData.ctl"/>
+	<Item Name="PressureTransducerSetpoint.ctl" Type="VI" URL="../PressureTransducerSetpoint.ctl"/>
 	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
 	<Item Name="StateSelector.ctl" Type="VI" URL="../StateSelector.ctl"/>
 	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
