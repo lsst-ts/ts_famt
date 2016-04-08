@@ -1,10 +1,10 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>13.0.1f2</Version>
+<Version>15.0f2</Version>
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
-<Name>ForceSensorCalculator</Name>
+<Name>ForceSensorCalculatorLateral</Name>
 <NumElts>3</NumElts>
 <DBL>
 <Name>Capacity</Name>
