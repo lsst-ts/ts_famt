@@ -21,16 +21,12 @@
 			<Item Name="ICommandFactory.lvclass" Type="LVClass" URL="../ICommandFactory/ICommandFactory.lvclass"/>
 		</Item>
 		<Item Name="Commands" Type="Folder">
-			<Item Name="ClearError.lvclass" Type="LVClass" URL="../Commands/ClearError/ClearError.lvclass"/>
-			<Item Name="EnableCompensator.lvclass" Type="LVClass" URL="../Commands/EnableCompensator/EnableCompensator.lvclass"/>
-			<Item Name="Exit.lvclass" Type="LVClass" URL="../Commands/Exit/Exit.lvclass"/>
-			<Item Name="ForceSetpoint.lvclass" Type="LVClass" URL="../Commands/ForceSetpoint/ForceSetpoint.lvclass"/>
-			<Item Name="StandBy.lvclass" Type="LVClass" URL="../Commands/StandBy/StandBy.lvclass"/>
+			<Item Name="Disable.lvclass" Type="LVClass" URL="../Commands/Disable/Disable.lvclass"/>
+			<Item Name="Enable.lvclass" Type="LVClass" URL="../Commands/Enable/Enable.lvclass"/>
+			<Item Name="Shutdown.lvclass" Type="LVClass" URL="../Commands/Exit/Shutdown.lvclass"/>
+			<Item Name="Standby.lvclass" Type="LVClass" URL="../Commands/StandBy/Standby.lvclass"/>
 			<Item Name="Start.lvclass" Type="LVClass" URL="../Commands/Start/Start.lvclass"/>
-			<Item Name="StartAutomatedTest.lvclass" Type="LVClass" URL="../Commands/StartAutomatedTest/StartAutomatedTest.lvclass"/>
-			<Item Name="StopAutomatedTest.lvclass" Type="LVClass" URL="../Commands/StopAutomatedTest/StopAutomatedTest.lvclass"/>
-			<Item Name="StopCompensator.lvclass" Type="LVClass" URL="../Commands/StopCompensator/StopCompensator.lvclass"/>
-			<Item Name="Update.lvclass" Type="LVClass" URL="../Commands/Update/Update.lvclass"/>
+			<Item Name="StartOpenLoopScan.lvclass" Type="LVClass" URL="../Commands/StartOpenLoopScan/StartOpenLoopScan.lvclass"/>
 		</Item>
 		<Item Name="ConfigFiles" Type="Folder" URL="../ConfigFiles">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -65,6 +61,14 @@
 			<Item Name="Controller.lvclass" Type="LVClass" URL="../Controller/Controller.lvclass"/>
 		</Item>
 		<Item Name="Model" Type="Folder">
+			<Item Name="Actuator" Type="Folder">
+				<Item Name="IActuator.lvclass" Type="LVClass" URL="../Model/Actuator/IActuator/IActuator.lvclass"/>
+				<Item Name="PressureServoCylinderActuator.lvclass" Type="LVClass" URL="../Model/ActuatorCylinder/PressureServoActuatorCylinder/PressureServoCylinderActuator.lvclass"/>
+			</Item>
+			<Item Name="ActuatorCylinder" Type="Folder">
+				<Item Name="IActuatorCylinder.lvclass" Type="LVClass" URL="../Model/ActuatorCylinder/IActuatorCylinder/IActuatorCylinder.lvclass"/>
+				<Item Name="ILCControlledActuatorCylinder.lvclass" Type="LVClass" URL="../Model/ActuatorCylinder/ILCControlledActuatorCylinder/ILCControlledActuatorCylinder.lvclass"/>
+			</Item>
 			<Item Name="ApplicationElements" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Log" Type="Folder">
@@ -85,6 +89,21 @@
 				<Item Name="DualActingPneumaticCylinder_Axial.lvclass" Type="LVClass" URL="../Model/ApplicationElements/DualActingPneumaticCylinder_Axial/DualActingPneumaticCylinder_Axial.lvclass"/>
 				<Item Name="DualActingPneumaticCylinder_Lateral.lvclass" Type="LVClass" URL="../Model/ApplicationElements/DualActingPneumaticCylinder_Lateral/DualActingPneumaticCylinder_Lateral.lvclass"/>
 			</Item>
+			<Item Name="Calculators" Type="Folder">
+				<Item Name="ForceToPressureServoVoltage.lvclass" Type="LVClass" URL="../Model/Calculators/ForceToPressureServoVoltage/ForceToPressureServoVoltage.lvclass"/>
+				<Item Name="VoltageToILCDACRaw.lvclass" Type="LVClass" URL="../Model/Calculators/VoltageToILCDACRaw/VoltageToILCDACRaw.lvclass"/>
+			</Item>
+			<Item Name="ILCDAC" Type="Folder">
+				<Item Name="IILCDAC.lvclass" Type="LVClass" URL="../Model/ILCDAC/IILCDAC/IILCDAC.lvclass"/>
+				<Item Name="ILCDAC1.lvclass" Type="LVClass" URL="../Model/ILCDAC/ILCDAC1/ILCDAC1.lvclass"/>
+				<Item Name="ILCDAC2.lvclass" Type="LVClass" URL="../Model/ILCDAC/ILCDAC2/ILCDAC2.lvclass"/>
+				<Item Name="ILCDAC3.lvclass" Type="LVClass" URL="../Model/ILCDAC/ILCDAC3/ILCDAC3.lvclass"/>
+				<Item Name="ILCDAC4.lvclass" Type="LVClass" URL="../Model/ILCDAC/ILCDAC4/ILCDAC4.lvclass"/>
+			</Item>
+			<Item Name="ILCDACFactory" Type="Folder">
+				<Item Name="IILCDACFactory.lvclass" Type="LVClass" URL="../Model/ILCDACFactory/IILCDACFactory/IILCDACFactory.lvclass"/>
+				<Item Name="ILCDACFactory.lvclass" Type="LVClass" URL="../Model/ILCDACFactory/ILCDACFactory/ILCDACFactory.lvclass"/>
+			</Item>
 			<Item Name="ILCSim1TC" Type="Folder">
 				<Item Name="ILCSim1TC.lvclass" Type="LVClass" URL="../Model/ILCSim1TC/ILCSim1TC.lvclass"/>
 			</Item>
@@ -101,16 +120,13 @@
 			<Item Name="StateFactory.lvclass" Type="LVClass" URL="../StateFactory/StateFactory.lvclass"/>
 		</Item>
 		<Item Name="States" Type="Folder">
-			<Item Name="AutomatedProfileState.lvclass" Type="LVClass" URL="../States/AutomatedProfileState/AutomatedProfileState.lvclass"/>
-			<Item Name="CompensatorActiveState.lvclass" Type="LVClass" URL="../States/CompensatorActiveState/CompensatorActiveState.lvclass"/>
+			<Item Name="DisabledState.lvclass" Type="LVClass" URL="../States/DisabledState/DisabledState.lvclass"/>
 			<Item Name="EnabledState.lvclass" Type="LVClass" URL="../States/EnabledState/EnabledState.lvclass"/>
-			<Item Name="EndingCycleState.lvclass" Type="LVClass" URL="../States/EndingCycleState/EndingCycleState.lvclass"/>
-			<Item Name="ExecutingCycleState.lvclass" Type="LVClass" URL="../States/ExecutingCycleState/ExecutingCycleState.lvclass"/>
 			<Item Name="FaultState.lvclass" Type="LVClass" URL="../States/FaultState/FaultState.lvclass"/>
-			<Item Name="InteractiveSetpointState.lvclass" Type="LVClass" URL="../States/InteractiveSetpointState/InteractiveSetpointState.lvclass"/>
-			<Item Name="OffState.lvclass" Type="LVClass" URL="../States/OffState/OffState.lvclass"/>
+			<Item Name="OfflineState.lvclass" Type="LVClass" URL="../States/OfflineState/OfflineState.lvclass"/>
+			<Item Name="PerformOpenLoopScanState.lvclass" Type="LVClass" URL="../States/PerformOpenLoopScanState/PerformOpenLoopScanState.lvclass"/>
 			<Item Name="StandbyState.lvclass" Type="LVClass" URL="../States/StandbyState/StandbyState.lvclass"/>
-			<Item Name="StoppedState.lvclass" Type="LVClass" URL="../States/StoppedState/StoppedState.lvclass"/>
+			<Item Name="WaitForUserInputState.lvclass" Type="LVClass" URL="../States/WaitForUserInputState/WaitForUserInputState.lvclass"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="FAMTTypedefs.lvlib" Type="Library" URL="../Typedefs/FAMTTypedefs.lvlib"/>
