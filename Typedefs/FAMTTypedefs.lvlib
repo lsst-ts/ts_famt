@@ -11,6 +11,8 @@
 	<Item Name="DualActingPneumaticCylinder.ctl" Type="VI" URL="../DualActingPneumaticCylinder.ctl"/>
 	<Item Name="FlowControlValveSetpoint.ctl" Type="VI" URL="../FlowControlValveSetpoint.ctl"/>
 	<Item Name="ForceSetpoint.ctl" Type="VI" URL="../ForceSetpoint.ctl"/>
+	<Item Name="GuassianNoiseWaveInput.ctl" Type="VI" URL="../GuassianNoiseWaveInput.ctl"/>
+	<Item Name="IncrementDecrement.ctl" Type="VI" URL="../IncrementDecrement.ctl"/>
 	<Item Name="InputData.ctl" Type="VI" URL="../InputData.ctl"/>
 	<Item Name="Iterations.ctl" Type="VI" URL="../Iterations.ctl"/>
 	<Item Name="PeriodicWaveInputs.ctl" Type="VI" URL="../PeriodicWaveInputs.ctl"/>
