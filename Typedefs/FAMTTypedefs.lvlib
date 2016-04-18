@@ -9,6 +9,7 @@
 	<Item Name="CompensatorOutput.ctl" Type="VI" URL="../CompensatorOutput.ctl"/>
 	<Item Name="ControllerData.ctl" Type="VI" URL="../ControllerData.ctl"/>
 	<Item Name="DualActingPneumaticCylinder.ctl" Type="VI" URL="../DualActingPneumaticCylinder.ctl"/>
+	<Item Name="DutyCycle.ctl" Type="VI" URL="../DutyCycle.ctl"/>
 	<Item Name="FlowControlValveSetpoint.ctl" Type="VI" URL="../FlowControlValveSetpoint.ctl"/>
 	<Item Name="ForceSetpoint.ctl" Type="VI" URL="../ForceSetpoint.ctl"/>
 	<Item Name="GuassianNoiseWaveInput.ctl" Type="VI" URL="../GuassianNoiseWaveInput.ctl"/>
@@ -21,5 +22,5 @@
 	<Item Name="StateSelector.ctl" Type="VI" URL="../StateSelector.ctl"/>
 	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
 	<Item Name="TestStatus.ctl" Type="VI" URL="../TestStatus.ctl"/>
-	<Item Name="Waveforms.ctl" Type="VI" URL="../Waveforms.ctl"/>
+	<Item Name="Waveform.ctl" Type="VI" URL="../Waveform.ctl"/>
 </Library>
