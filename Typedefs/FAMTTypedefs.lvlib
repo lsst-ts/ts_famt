@@ -12,9 +12,12 @@
 	<Item Name="FlowControlValveSetpoint.ctl" Type="VI" URL="../FlowControlValveSetpoint.ctl"/>
 	<Item Name="ForceSetpoint.ctl" Type="VI" URL="../ForceSetpoint.ctl"/>
 	<Item Name="InputData.ctl" Type="VI" URL="../InputData.ctl"/>
+	<Item Name="Iterations.ctl" Type="VI" URL="../Iterations.ctl"/>
+	<Item Name="PeriodicWaveInputs.ctl" Type="VI" URL="../PeriodicWaveInputs.ctl"/>
 	<Item Name="PressureTransducerSetpoint.ctl" Type="VI" URL="../PressureTransducerSetpoint.ctl"/>
 	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
 	<Item Name="StateSelector.ctl" Type="VI" URL="../StateSelector.ctl"/>
 	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
 	<Item Name="TestStatus.ctl" Type="VI" URL="../TestStatus.ctl"/>
+	<Item Name="Waveforms.ctl" Type="VI" URL="../Waveforms.ctl"/>
 </Library>
