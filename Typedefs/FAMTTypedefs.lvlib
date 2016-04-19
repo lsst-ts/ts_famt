@@ -19,6 +19,7 @@
 	<Item Name="PeriodicWaveInputs.ctl" Type="VI" URL="../PeriodicWaveInputs.ctl"/>
 	<Item Name="PressureTransducerSetpoint.ctl" Type="VI" URL="../PressureTransducerSetpoint.ctl"/>
 	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
+	<Item Name="Scan Progress.ctl" Type="VI" URL="../Scan Progress.ctl"/>
 	<Item Name="Scan Settings.ctl" Type="VI" URL="../Scan Settings.ctl"/>
 	<Item Name="StateSelector.ctl" Type="VI" URL="../StateSelector.ctl"/>
 	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
