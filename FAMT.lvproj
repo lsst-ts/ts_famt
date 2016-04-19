@@ -24,7 +24,7 @@
 			<Item Name="Disable.lvclass" Type="LVClass" URL="../Commands/Disable/Disable.lvclass"/>
 			<Item Name="Enable.lvclass" Type="LVClass" URL="../Commands/Enable/Enable.lvclass"/>
 			<Item Name="Shutdown.lvclass" Type="LVClass" URL="../Commands/Shutdown/Shutdown.lvclass"/>
-			<Item Name="StandBy.lvclass" Type="LVClass" URL="../Commands/StandBy/Standby.lvclass"/>
+			<Item Name="Standby.lvclass" Type="LVClass" URL="../Commands/StandBy/Standby.lvclass"/>
 			<Item Name="Start.lvclass" Type="LVClass" URL="../Commands/Start/Start.lvclass"/>
 			<Item Name="StartOpenLoopScan.lvclass" Type="LVClass" URL="../Commands/StartOpenLoopScan/StartOpenLoopScan.lvclass"/>
 			<Item Name="Update.lvclass" Type="LVClass" URL="../Commands/Update/Update.lvclass"/>
@@ -112,24 +112,12 @@
 				<Item Name="ILCTC.lvclass" Type="LVClass" URL="../Model/ILCTC/ILCTC.lvclass"/>
 			</Item>
 			<Item Name="Waveforms" Type="Folder">
-				<Item Name="GuassianNoiseWave" Type="Folder">
-					<Item Name="GuassianNoiseWave.lvclass" Type="LVClass" URL="../Model/Waveforms/GuassianNoiseWave/GuassianNoiseWave.lvclass"/>
-				</Item>
-				<Item Name="IWaveforms" Type="Folder">
-					<Item Name="IWaveform.lvclass" Type="LVClass" URL="../Model/Waveforms/IWaveforms/IWaveform.lvclass"/>
-				</Item>
-				<Item Name="SawtoothWave" Type="Folder">
-					<Item Name="SawtoothWave.lvclass" Type="LVClass" URL="../Model/Waveforms/SawtoothWave/SawtoothWave.lvclass"/>
-				</Item>
-				<Item Name="SineWave" Type="Folder">
-					<Item Name="SineWave.lvclass" Type="LVClass" URL="../Model/Waveforms/SineWave/SineWave.lvclass"/>
-				</Item>
-				<Item Name="SquareWave" Type="Folder">
-					<Item Name="SquareWave.lvclass" Type="LVClass" URL="../Model/Waveforms/SquareWave/SquareWave.lvclass"/>
-				</Item>
-				<Item Name="TriangleWave" Type="Folder">
-					<Item Name="TriangleWave.lvclass" Type="LVClass" URL="../Model/Waveforms/TriangleWave/TriangleWave.lvclass"/>
-				</Item>
+				<Item Name="GuassianNoiseWave.lvclass" Type="LVClass" URL="../Model/Waveforms/GuassianNoiseWave/GuassianNoiseWave.lvclass"/>
+				<Item Name="IWaveform.lvclass" Type="LVClass" URL="../Model/Waveforms/IWaveforms/IWaveform.lvclass"/>
+				<Item Name="SawtoothWave.lvclass" Type="LVClass" URL="../Model/Waveforms/SawtoothWave/SawtoothWave.lvclass"/>
+				<Item Name="SineWave.lvclass" Type="LVClass" URL="../Model/Waveforms/SineWave/SineWave.lvclass"/>
+				<Item Name="SquareWave.lvclass" Type="LVClass" URL="../Model/Waveforms/SquareWave/SquareWave.lvclass"/>
+				<Item Name="TriangleWave.lvclass" Type="LVClass" URL="../Model/Waveforms/TriangleWave/TriangleWave.lvclass"/>
 			</Item>
 			<Item Name="Model.lvclass" Type="LVClass" URL="../Model/Model/Model.lvclass"/>
 		</Item>
@@ -168,8 +156,8 @@
 				<Item Name="ILCSim1.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/ILCSim1.lvclass"/>
 				<Item Name="ILCSimulatorSignals.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Simulators/ILCSimulatorSignals/ILCSimulatorSignals.lvlib"/>
 				<Item Name="Log.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Log/Log.lvlib"/>
-				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/serialprotocols/SerialProtocols.lvlib"/>
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/simulators/simulateserialdata/SimulateSerialData.lvclass"/>
+				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
+				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -241,7 +229,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FAMT</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DAC38C13-5F1A-4D28-A357-61A750FE3FEB}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FAMT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FAMT/FAMT.exe</Property>
@@ -252,7 +240,7 @@
 				<Property Name="Destination[2].destName" Type="Str">ConfigFiles</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/FAMT/ConfigFiles</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1AF19E7C-3CBA-4E6F-97FA-CCA00610A2B0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{322301BB-12CD-411D-B969-ADD57D168F8B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/View/FAMTViews.lvlib/famtView.vi</Property>
@@ -264,6 +252,10 @@
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Controller</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/View/FAMTViews.lvlib/ILCADCView.vi</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -299,7 +291,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/View/FAMTViews.lvlib/stateView.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FAMT</Property>
 				<Property Name="TgtF_internalName" Type="Str">FAMT</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>

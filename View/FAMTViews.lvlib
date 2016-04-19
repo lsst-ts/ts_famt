@@ -8,6 +8,7 @@
 	<Item Name="famtView.vi" Type="VI" URL="../famtView.vi"/>
 	<Item Name="famtViewRTM.rtm" Type="Document" URL="../famtViewRTM.rtm"/>
 	<Item Name="faultView.vi" Type="VI" URL="../faultView.vi"/>
+	<Item Name="ILCADCView.vi" Type="VI" URL="../ILCADCView.vi"/>
 	<Item Name="ILCOutputsView.vi" Type="VI" URL="../ILCOutputsView.vi"/>
 	<Item Name="openLoopControlView.vi" Type="VI" URL="../openLoopControlView.vi"/>
 	<Item Name="stateView.vi" Type="VI" URL="../stateView.vi"/>

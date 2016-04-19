@@ -4,7 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="ADC Outputs.ctl" Type="VI" URL="../ADC Outputs.ctl"/>
 	<Item Name="CommandSelector.ctl" Type="VI" URL="../CommandSelector.ctl"/>
 	<Item Name="CompensatorOutput.ctl" Type="VI" URL="../CompensatorOutput.ctl"/>
 	<Item Name="ControllerData.ctl" Type="VI" URL="../ControllerData.ctl"/>
@@ -13,14 +12,17 @@
 	<Item Name="FlowControlValveSetpoint.ctl" Type="VI" URL="../FlowControlValveSetpoint.ctl"/>
 	<Item Name="ForceSetpoint.ctl" Type="VI" URL="../ForceSetpoint.ctl"/>
 	<Item Name="GuassianNoiseWaveInput.ctl" Type="VI" URL="../GuassianNoiseWaveInput.ctl"/>
+	<Item Name="ILC ADC.ctl" Type="VI" URL="../ILC ADC.ctl"/>
 	<Item Name="IncrementDecrement.ctl" Type="VI" URL="../IncrementDecrement.ctl"/>
 	<Item Name="InputData.ctl" Type="VI" URL="../InputData.ctl"/>
 	<Item Name="Iterations.ctl" Type="VI" URL="../Iterations.ctl"/>
 	<Item Name="PeriodicWaveInputs.ctl" Type="VI" URL="../PeriodicWaveInputs.ctl"/>
 	<Item Name="PressureTransducerSetpoint.ctl" Type="VI" URL="../PressureTransducerSetpoint.ctl"/>
 	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
+	<Item Name="Scan Settings.ctl" Type="VI" URL="../Scan Settings.ctl"/>
 	<Item Name="StateSelector.ctl" Type="VI" URL="../StateSelector.ctl"/>
 	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
+	<Item Name="Test Values.ctl" Type="VI" URL="../Test Values.ctl"/>
 	<Item Name="TestStatus.ctl" Type="VI" URL="../TestStatus.ctl"/>
 	<Item Name="Waveform.ctl" Type="VI" URL="../Waveform.ctl"/>
 </Library>
