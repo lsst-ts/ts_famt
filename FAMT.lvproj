@@ -24,7 +24,7 @@
 			<Item Name="Disable.lvclass" Type="LVClass" URL="../Commands/Disable/Disable.lvclass"/>
 			<Item Name="Enable.lvclass" Type="LVClass" URL="../Commands/Enable/Enable.lvclass"/>
 			<Item Name="Shutdown.lvclass" Type="LVClass" URL="../Commands/Shutdown/Shutdown.lvclass"/>
-			<Item Name="Standby.lvclass" Type="LVClass" URL="../Commands/StandBy/Standby.lvclass"/>
+			<Item Name="StandBy.lvclass" Type="LVClass" URL="../Commands/StandBy/Standby.lvclass"/>
 			<Item Name="Start.lvclass" Type="LVClass" URL="../Commands/Start/Start.lvclass"/>
 			<Item Name="StartOpenLoopScan.lvclass" Type="LVClass" URL="../Commands/StartOpenLoopScan/StartOpenLoopScan.lvclass"/>
 			<Item Name="Update.lvclass" Type="LVClass" URL="../Commands/Update/Update.lvclass"/>
@@ -128,12 +128,18 @@
 				<Item Name="PressureSensor.lvclass" Type="LVClass" URL="../Model/PressureSensor/PressureSensor/PressureSensor.lvclass"/>
 			</Item>
 			<Item Name="Waveforms" Type="Folder">
-				<Item Name="GuassianNoiseWave.lvclass" Type="LVClass" URL="../Model/Waveforms/GuassianNoiseWave/GuassianNoiseWave.lvclass"/>
-				<Item Name="IWaveform.lvclass" Type="LVClass" URL="../Model/Waveforms/IWaveforms/IWaveform.lvclass"/>
-				<Item Name="SawtoothWave.lvclass" Type="LVClass" URL="../Model/Waveforms/SawtoothWave/SawtoothWave.lvclass"/>
-				<Item Name="SineWave.lvclass" Type="LVClass" URL="../Model/Waveforms/SineWave/SineWave.lvclass"/>
-				<Item Name="SquareWave.lvclass" Type="LVClass" URL="../Model/Waveforms/SquareWave/SquareWave.lvclass"/>
-				<Item Name="TriangleWave.lvclass" Type="LVClass" URL="../Model/Waveforms/TriangleWave/TriangleWave.lvclass"/>
+				<Item Name="ChirpWave" Type="Folder">
+					<Item Name="ChirpWave.lvclass" Type="LVClass" URL="../Model/Waveforms/ChirpWave/ChirpWave.lvclass"/>
+				</Item>
+				<Item Name="GuassianNoiseWave" Type="Folder">
+					<Item Name="GuassianNoiseWave.lvclass" Type="LVClass" URL="../Model/Waveforms/GuassianNoiseWave/GuassianNoiseWave.lvclass"/>
+				</Item>
+				<Item Name="IWaveforms" Type="Folder">
+					<Item Name="IWaveform.lvclass" Type="LVClass" URL="../Model/Waveforms/IWaveforms/IWaveform.lvclass"/>
+				</Item>
+				<Item Name="PeriodicWave" Type="Folder">
+					<Item Name="PeriodicWave.lvclass" Type="LVClass" URL="../Model/Waveforms/PeriodicWave/PeriodicWave.lvclass"/>
+				</Item>
 			</Item>
 			<Item Name="Model.lvclass" Type="LVClass" URL="../Model/Model/Model.lvclass"/>
 		</Item>
@@ -261,8 +267,9 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
@@ -285,6 +292,7 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
