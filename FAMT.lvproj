@@ -24,7 +24,7 @@
 			<Item Name="Disable.lvclass" Type="LVClass" URL="../Commands/Disable/Disable.lvclass"/>
 			<Item Name="Enable.lvclass" Type="LVClass" URL="../Commands/Enable/Enable.lvclass"/>
 			<Item Name="Shutdown.lvclass" Type="LVClass" URL="../Commands/Shutdown/Shutdown.lvclass"/>
-			<Item Name="StandBy.lvclass" Type="LVClass" URL="../Commands/StandBy/Standby.lvclass"/>
+			<Item Name="Standby.lvclass" Type="LVClass" URL="../Commands/StandBy/Standby.lvclass"/>
 			<Item Name="Start.lvclass" Type="LVClass" URL="../Commands/Start/Start.lvclass"/>
 			<Item Name="StartOpenLoopScan.lvclass" Type="LVClass" URL="../Commands/StartOpenLoopScan/StartOpenLoopScan.lvclass"/>
 			<Item Name="Update.lvclass" Type="LVClass" URL="../Commands/Update/Update.lvclass"/>
@@ -76,8 +76,12 @@
 		</Item>
 		<Item Name="Model" Type="Folder">
 			<Item Name="Actuator" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="IActuatorFactory.lvclass" Type="LVClass" URL="../Model/Actuator/IActuatorFactory/IActuatorFactory.lvclass"/>
+				<Item Name="ActuatorFactory.lvclass" Type="LVClass" URL="../Model/Actuator/ActuatorFactory/ActuatorFactory.lvclass"/>
 				<Item Name="IActuator.lvclass" Type="LVClass" URL="../Model/Actuator/IActuator/IActuator.lvclass"/>
-				<Item Name="PressureServoCylinderActuator.lvclass" Type="LVClass" URL="../Model/ActuatorCylinder/PressureServoActuatorCylinder/PressureServoCylinderActuator.lvclass"/>
+				<Item Name="PressureServoActuator.lvclass" Type="LVClass" URL="../Model/Actuator/PressureServoActuator/PressureServoActuator.lvclass"/>
+				<Item Name="FlowControlActuator.lvclass" Type="LVClass" URL="../Model/Actuator/FlowControlActuator/FlowControlActuator.lvclass"/>
 			</Item>
 			<Item Name="ActuatorCylinder" Type="Folder">
 				<Item Name="IActuatorCylinder.lvclass" Type="LVClass" URL="../Model/ActuatorCylinder/IActuatorCylinder/IActuatorCylinder.lvclass"/>
@@ -103,7 +107,11 @@
 				<Item Name="DualActingPneumaticCylinder_Axial.lvclass" Type="LVClass" URL="../Model/ApplicationElements/DualActingPneumaticCylinder_Axial/DualActingPneumaticCylinder_Axial.lvclass"/>
 				<Item Name="DualActingPneumaticCylinder_Lateral.lvclass" Type="LVClass" URL="../Model/ApplicationElements/DualActingPneumaticCylinder_Lateral/DualActingPneumaticCylinder_Lateral.lvclass"/>
 			</Item>
+			<Item Name="BootLoader" Type="Folder">
+				<Item Name="Bootloader.lvclass" Type="LVClass" URL="../Model/Bootloader/Bootloader.lvclass"/>
+			</Item>
 			<Item Name="Calculators" Type="Folder">
+				<Item Name="ForceToFlowControlVoltage.lvclass" Type="LVClass" URL="../Model/Calculators/ForceToFlowControlVoltage/ForceToFlowControlVoltage.lvclass"/>
 				<Item Name="ForceToPressureServoVoltage.lvclass" Type="LVClass" URL="../Model/Calculators/ForceToPressureServoVoltage/ForceToPressureServoVoltage.lvclass"/>
 				<Item Name="VoltageToILCDACRaw.lvclass" Type="LVClass" URL="../Model/Calculators/VoltageToILCDACRaw/VoltageToILCDACRaw.lvclass"/>
 			</Item>

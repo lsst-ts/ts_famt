@@ -1,0 +1,31 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Pressure Servo Settings</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>Center Point</Name>
+<Val>551580.63116126239700</Val>
+</DBL>
+<DBL>
+<Name>Area</Name>
+<Val>4.53600000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>PA to PSI</Name>
+<Val>1.45038000000000E-4</Val>
+</DBL>
+<U8>
+<Name>Servo 1 DAC Channel</Name>
+<Val>1</Val>
+</U8>
+<U8>
+<Name>Servo 2 DAC Channel</Name>
+<Val>2</Val>
+</U8>
+</Cluster>
+</LvVariant>
+</LVData>

@@ -4,9 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Actuator Types.ctl" Type="VI" URL="../Actuator Types.ctl"/>
 	<Item Name="CommandSelector.ctl" Type="VI" URL="../CommandSelector.ctl"/>
 	<Item Name="CompensatorOutput.ctl" Type="VI" URL="../CompensatorOutput.ctl"/>
 	<Item Name="ControllerData.ctl" Type="VI" URL="../ControllerData.ctl"/>
+	<Item Name="DAC Settings.ctl" Type="VI" URL="../DAC Settings.ctl"/>
 	<Item Name="DualActingPneumaticCylinder.ctl" Type="VI" URL="../DualActingPneumaticCylinder.ctl"/>
 	<Item Name="DutyCycle.ctl" Type="VI" URL="../DutyCycle.ctl"/>
 	<Item Name="FlowControlValveSetpoint.ctl" Type="VI" URL="../FlowControlValveSetpoint.ctl"/>
@@ -17,6 +19,7 @@
 	<Item Name="InputData.ctl" Type="VI" URL="../InputData.ctl"/>
 	<Item Name="Iterations.ctl" Type="VI" URL="../Iterations.ctl"/>
 	<Item Name="PeriodicWaveInputs.ctl" Type="VI" URL="../PeriodicWaveInputs.ctl"/>
+	<Item Name="Pressure Servo Settings.ctl" Type="VI" URL="../Pressure Servo Settings.ctl"/>
 	<Item Name="PressureTransducerSetpoint.ctl" Type="VI" URL="../PressureTransducerSetpoint.ctl"/>
 	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
 	<Item Name="Scan Progress.ctl" Type="VI" URL="../Scan Progress.ctl"/>
