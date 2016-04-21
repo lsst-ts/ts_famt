@@ -12,6 +12,7 @@
 	<Item Name="ILCOutputsView.vi" Type="VI" URL="../ILCOutputsView.vi"/>
 	<Item Name="scanChartView.vi" Type="VI" URL="../scanChartView.vi"/>
 	<Item Name="scanControlView.vi" Type="VI" URL="../scanControlView.vi"/>
+	<Item Name="scanDataView.vi" Type="VI" URL="../scanDataView.vi"/>
 	<Item Name="scanStatusView.vi" Type="VI" URL="../scanStatusView.vi"/>
 	<Item Name="stateView.vi" Type="VI" URL="../stateView.vi"/>
 </Library>
