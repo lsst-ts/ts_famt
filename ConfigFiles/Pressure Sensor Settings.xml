@@ -1,0 +1,27 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Pressure Sensor Settings</Name>
+<NumElts>4</NumElts>
+<DAQChannel>
+<Name>Channel</Name>
+<Val>ILCBT/ai4</Val>
+</DAQChannel>
+<I32>
+<Name>Terminal Configuration</Name>
+<Val>10083</Val>
+</I32>
+<DBL>
+<Name>Minimum</Name>
+<Val>-10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+</Cluster>
+</LvVariant>
+</LVData>

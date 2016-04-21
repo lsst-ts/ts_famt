@@ -1,0 +1,15 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Flow Control Settings</Name>
+<NumElts>1</NumElts>
+<U8>
+<Name>DAC Channel</Name>
+<Val>3</Val>
+</U8>
+</Cluster>
+</LvVariant>
+</LVData>
