@@ -102,6 +102,17 @@
 				<Item Name="ForceToPressureServoVoltage.lvclass" Type="LVClass" URL="../Model/Calculators/ForceToPressureServoVoltage/ForceToPressureServoVoltage.lvclass"/>
 				<Item Name="VoltageToILCDACRaw.lvclass" Type="LVClass" URL="../Model/Calculators/VoltageToILCDACRaw/VoltageToILCDACRaw.lvclass"/>
 			</Item>
+			<Item Name="ILCADC" Type="Folder">
+				<Item Name="IILCADC.lvclass" Type="LVClass" URL="../Model/ILCADC/IILCADC/IILCADC.lvclass"/>
+				<Item Name="ILCADC1.lvclass" Type="LVClass" URL="../Model/ILCADC/ILCADC1/ILCADC1.lvclass"/>
+				<Item Name="ILCADC2.lvclass" Type="LVClass" URL="../Model/ILCADC/ILCADC2/ILCADC2.lvclass"/>
+				<Item Name="ILCADC3.lvclass" Type="LVClass" URL="../Model/ILCADC/ILCADC3/ILCADC3.lvclass"/>
+				<Item Name="ILCADC4.lvclass" Type="LVClass" URL="../Model/ILCADC/ILCADC4/ILCADC4.lvclass"/>
+			</Item>
+			<Item Name="ILCADCFactory" Type="Folder">
+				<Item Name="IILCADCFactory.lvclass" Type="LVClass" URL="../Model/ILCADCFactory/IILCADCFactory/IILCADCFactory.lvclass"/>
+				<Item Name="ILCADCFactory.lvclass" Type="LVClass" URL="../Model/ILCADCFactory/ILCADCFactory/ILCADCFactory.lvclass"/>
+			</Item>
 			<Item Name="ILCDAC" Type="Folder">
 				<Item Name="IILCDAC.lvclass" Type="LVClass" URL="../Model/ILCDAC/IILCDAC/IILCDAC.lvclass"/>
 				<Item Name="ILCDAC1.lvclass" Type="LVClass" URL="../Model/ILCDAC/ILCDAC1/ILCDAC1.lvclass"/>
