@@ -30,6 +30,9 @@
 	<Item Name="StateSelector.ctl" Type="VI" URL="../StateSelector.ctl"/>
 	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
 	<Item Name="Test Values.ctl" Type="VI" URL="../Test Values.ctl"/>
+	<Item Name="TestLogTypes.ctl" Type="VI" URL="../TestLogTypes.ctl"/>
 	<Item Name="TestStatus.ctl" Type="VI" URL="../TestStatus.ctl"/>
 	<Item Name="Waveform.ctl" Type="VI" URL="../Waveform.ctl"/>
+	<Item Name="WriteDataFileInput.ctl" Type="VI" URL="../WriteDataFileInput.ctl"/>
+	<Item Name="WriteLogMessageInput.ctl" Type="VI" URL="../WriteLogMessageInput.ctl"/>
 </Library>

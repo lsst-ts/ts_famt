@@ -133,27 +133,23 @@
 			<Item Name="PressureSensor" Type="Folder">
 				<Item Name="PressureSensor.lvclass" Type="LVClass" URL="../Model/PressureSensor/PressureSensor/PressureSensor.lvclass"/>
 			</Item>
+			<Item Name="TestLog" Type="Folder">
+				<Item Name="CSVTestLog.lvclass" Type="LVClass" URL="../Model/TestLog/CSVTestLog/CSVTestLog.lvclass"/>
+				<Item Name="ITestLog.lvclass" Type="LVClass" URL="../Model/TestLog/ITestLog/ITestLog.lvclass"/>
+			</Item>
+			<Item Name="TestLogFactory" Type="Folder">
+				<Item Name="ITestLogFactory.lvclass" Type="LVClass" URL="../Model/TestLogFactory/ITestLogFactory/ITestLogFactory.lvclass"/>
+				<Item Name="TestLogFactory.lvclass" Type="LVClass" URL="../Model/TestLogFactory/TestLogFactory/TestLogFactory.lvclass"/>
+			</Item>
 			<Item Name="WaveformFactory" Type="Folder">
-				<Item Name="IWaveformFactory" Type="Folder">
-					<Item Name="IWaveformFactory.lvclass" Type="LVClass" URL="../Model/WaveformFactory/IWaveformFactory/IWaveformFactory.lvclass"/>
-				</Item>
-				<Item Name="WaveformFactory" Type="Folder">
-					<Item Name="WaveformFactory.lvclass" Type="LVClass" URL="../Model/WaveformFactory/WaveformFactory/WaveformFactory.lvclass"/>
-				</Item>
+				<Item Name="IWaveformFactory.lvclass" Type="LVClass" URL="../Model/WaveformFactory/IWaveformFactory/IWaveformFactory.lvclass"/>
+				<Item Name="WaveformFactory.lvclass" Type="LVClass" URL="../Model/WaveformFactory/WaveformFactory/WaveformFactory.lvclass"/>
 			</Item>
 			<Item Name="Waveforms" Type="Folder">
-				<Item Name="ChirpWave" Type="Folder">
-					<Item Name="ChirpWave.lvclass" Type="LVClass" URL="../Model/Waveforms/ChirpWave/ChirpWave.lvclass"/>
-				</Item>
-				<Item Name="GuassianNoiseWave" Type="Folder">
-					<Item Name="GuassianNoiseWave.lvclass" Type="LVClass" URL="../Model/Waveforms/GuassianNoiseWave/GuassianNoiseWave.lvclass"/>
-				</Item>
-				<Item Name="IWaveforms" Type="Folder">
-					<Item Name="IWaveform.lvclass" Type="LVClass" URL="../Model/Waveforms/IWaveforms/IWaveform.lvclass"/>
-				</Item>
-				<Item Name="PeriodicWave" Type="Folder">
-					<Item Name="PeriodicWave.lvclass" Type="LVClass" URL="../Model/Waveforms/PeriodicWave/PeriodicWave.lvclass"/>
-				</Item>
+				<Item Name="ChirpWave.lvclass" Type="LVClass" URL="../Model/Waveforms/ChirpWave/ChirpWave.lvclass"/>
+				<Item Name="GuassianNoiseWave.lvclass" Type="LVClass" URL="../Model/Waveforms/GuassianNoiseWave/GuassianNoiseWave.lvclass"/>
+				<Item Name="IWaveform.lvclass" Type="LVClass" URL="../Model/Waveforms/IWaveforms/IWaveform.lvclass"/>
+				<Item Name="PeriodicWave.lvclass" Type="LVClass" URL="../Model/Waveforms/PeriodicWave/PeriodicWave.lvclass"/>
 			</Item>
 			<Item Name="Model.lvclass" Type="LVClass" URL="../Model/Model/Model.lvclass"/>
 		</Item>
@@ -199,6 +195,7 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
@@ -367,6 +364,8 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
