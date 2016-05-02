@@ -14,6 +14,7 @@
 	<Item Name="DutyCycle.ctl" Type="VI" URL="../DutyCycle.ctl"/>
 	<Item Name="Flow Control Settings.ctl" Type="VI" URL="../Flow Control Settings.ctl"/>
 	<Item Name="FlowControlValveSetpoint.ctl" Type="VI" URL="../FlowControlValveSetpoint.ctl"/>
+	<Item Name="ForceSensorSettings.ctl" Type="VI" URL="../ForceSensorSettings.ctl"/>
 	<Item Name="ForceSetpoint.ctl" Type="VI" URL="../ForceSetpoint.ctl"/>
 	<Item Name="GuassianNoiseWaveInput.ctl" Type="VI" URL="../GuassianNoiseWaveInput.ctl"/>
 	<Item Name="ILC ADC.ctl" Type="VI" URL="../ILC ADC.ctl"/>
