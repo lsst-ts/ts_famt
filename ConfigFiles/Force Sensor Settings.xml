@@ -1,0 +1,19 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Force Sensor Settings</Name>
+<NumElts>2</NumElts>
+<U8>
+<Name>ADC Channel</Name>
+<Val>1</Val>
+</U8>
+<DBL>
+<Name>Reference Voltage Vref</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</LvVariant>
+</LVData>

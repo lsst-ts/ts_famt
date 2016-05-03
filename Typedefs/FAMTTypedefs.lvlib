@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Actuator Settings.ctl" Type="VI" URL="../Actuator Settings.ctl"/>
 	<Item Name="Actuator Types.ctl" Type="VI" URL="../Actuator Types.ctl"/>
+	<Item Name="ClosedLoopSettings.ctl" Type="VI" URL="../ClosedLoopSettings.ctl"/>
 	<Item Name="CommandSelector.ctl" Type="VI" URL="../CommandSelector.ctl"/>
 	<Item Name="CompensatorOutput.ctl" Type="VI" URL="../CompensatorOutput.ctl"/>
 	<Item Name="ControllerData.ctl" Type="VI" URL="../ControllerData.ctl"/>
