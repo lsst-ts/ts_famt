@@ -10,6 +10,7 @@
 <Name>Actuator Types</Name>
 <Choice>Pressure Servo Valve</Choice>
 <Choice>Flow Control Valve</Choice>
+<Choice>Pressure Servo Valve Closed</Choice>
 <Val>0</Val>
 </EW>
 </Cluster>
