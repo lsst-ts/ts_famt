@@ -17,12 +17,9 @@
 	<Item Name="FlowControlValveSetpoint.ctl" Type="VI" URL="../FlowControlValveSetpoint.ctl"/>
 	<Item Name="ForceSensorSettings.ctl" Type="VI" URL="../ForceSensorSettings.ctl"/>
 	<Item Name="ForceSetpoint.ctl" Type="VI" URL="../ForceSetpoint.ctl"/>
-	<Item Name="GuassianNoiseWaveInput.ctl" Type="VI" URL="../GuassianNoiseWaveInput.ctl"/>
 	<Item Name="ILC ADC.ctl" Type="VI" URL="../ILC ADC.ctl"/>
-	<Item Name="IncrementDecrement.ctl" Type="VI" URL="../IncrementDecrement.ctl"/>
 	<Item Name="InputData.ctl" Type="VI" URL="../InputData.ctl"/>
 	<Item Name="Iterations.ctl" Type="VI" URL="../Iterations.ctl"/>
-	<Item Name="PeriodicWaveInputs.ctl" Type="VI" URL="../PeriodicWaveInputs.ctl"/>
 	<Item Name="Pressure Sensor Settings.ctl" Type="VI" URL="../Pressure Sensor Settings.ctl"/>
 	<Item Name="Pressure Servo Settings.ctl" Type="VI" URL="../Pressure Servo Settings.ctl"/>
 	<Item Name="PressureTransducerSetpoint.ctl" Type="VI" URL="../PressureTransducerSetpoint.ctl"/>
