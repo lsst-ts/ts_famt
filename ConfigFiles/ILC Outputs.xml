@@ -1,0 +1,39 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>ILC Outputs</Name>
+<NumElts>7</NumElts>
+<I16>
+<Name>Step &amp; Direction</Name>
+<Val>0</Val>
+</I16>
+<U8>
+<Name>Blower RPM</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PWM (SSR)</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Ch1</Name>
+<Val>32768</Val>
+</U16>
+<U16>
+<Name>Ch2</Name>
+<Val>32768</Val>
+</U16>
+<U16>
+<Name>Ch3</Name>
+<Val>32768</Val>
+</U16>
+<U16>
+<Name>Ch4</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</LvVariant>
+</LVData>
