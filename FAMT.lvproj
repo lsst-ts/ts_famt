@@ -155,6 +155,7 @@
 				<Item Name="PeriodicWave.lvclass" Type="LVClass" URL="../Model/Waveforms/PeriodicWave/PeriodicWave.lvclass"/>
 				<Item Name="TrapezoidalWave.lvclass" Type="LVClass" URL="../Model/Waveforms/TrapezoidalWave/TrapezoidalWave.lvclass"/>
 				<Item Name="GuassianNoiseWave.lvclass" Type="LVClass" URL="../Model/Waveforms/GuassianNoiseWave/GuassianNoiseWave.lvclass"/>
+				<Item Name="WaveformGenerator.lvclass" Type="LVClass" URL="../Model/Waveforms/WaveformGenerator/WaveformGenerator.lvclass"/>
 			</Item>
 			<Item Name="Model.lvclass" Type="LVClass" URL="../Model/Model/Model.lvclass"/>
 		</Item>
