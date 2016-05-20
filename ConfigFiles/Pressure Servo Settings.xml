@@ -5,7 +5,7 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Pressure Servo Settings</Name>
-<NumElts>6</NumElts>
+<NumElts>7</NumElts>
 <DBL>
 <Name>Center Point</Name>
 <Val>413685.47337094682700</Val>
@@ -50,6 +50,10 @@
 <Val>10.00000000000000</Val>
 </DBL>
 </Cluster>
+<DBL>
+<Name>Off Value</Name>
+<Val>4000.00000000000000</Val>
+</DBL>
 </Cluster>
 </LvVariant>
 </LVData>

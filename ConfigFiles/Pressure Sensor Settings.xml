@@ -8,7 +8,7 @@
 <NumElts>4</NumElts>
 <DAQChannel>
 <Name>Channel</Name>
-<Val>ILCBT/ai4</Val>
+<Val>Dev1/ai0</Val>
 </DAQChannel>
 <I32>
 <Name>Terminal Configuration</Name>
@@ -16,11 +16,11 @@
 </I32>
 <DBL>
 <Name>Minimum</Name>
-<Val>-10.00000000000000</Val>
+<Val>-6.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Maximum</Name>
-<Val>10.00000000000000</Val>
+<Val>6.00000000000000</Val>
 </DBL>
 </Cluster>
 </LvVariant>

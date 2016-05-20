@@ -8,9 +8,7 @@
 <NumElts>1</NumElts>
 <EW>
 <Name>Actuator Types</Name>
-<Choice>Pressure Servo Valve</Choice>
-<Choice>Flow Control Valve</Choice>
-<Choice>Pressure Servo Valve Closed</Choice>
+<Choice>Single Open</Choice>
 <Val>0</Val>
 </EW>
 </Cluster>

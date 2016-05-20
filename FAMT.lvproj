@@ -67,9 +67,7 @@
 				<Item Name="IActuatorFactory.lvclass" Type="LVClass" URL="../Model/Actuator/IActuatorFactory/IActuatorFactory.lvclass"/>
 				<Item Name="ActuatorFactory.lvclass" Type="LVClass" URL="../Model/Actuator/ActuatorFactory/ActuatorFactory.lvclass"/>
 				<Item Name="IActuator.lvclass" Type="LVClass" URL="../Model/Actuator/IActuator/IActuator.lvclass"/>
-				<Item Name="PressureServoActuator.lvclass" Type="LVClass" URL="../Model/Actuator/PressureServoActuator/PressureServoActuator.lvclass"/>
-				<Item Name="FlowControlActuator.lvclass" Type="LVClass" URL="../Model/Actuator/FlowControlActuator/FlowControlActuator.lvclass"/>
-				<Item Name="PressureServoActuatorClosed.lvclass" Type="LVClass" URL="../Model/Actuator/PressureServoActuatorClosed/PressureServoActuatorClosed.lvclass"/>
+				<Item Name="SingleCylinderActuator.lvclass" Type="LVClass" URL="../Model/Actuator/SingleCylinderActuator/SingleCylinderActuator.lvclass"/>
 			</Item>
 			<Item Name="ActuatorCylinder" Type="Folder">
 				<Item Name="IActuatorCylinder.lvclass" Type="LVClass" URL="../Model/ActuatorCylinder/IActuatorCylinder/IActuatorCylinder.lvclass"/>
@@ -366,11 +364,9 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -412,7 +408,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FAMT</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DAC38C13-5F1A-4D28-A357-61A750FE3FEB}</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FAMT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FAMT/FAMT.exe</Property>

@@ -5,11 +5,27 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Flow Control Settings</Name>
-<NumElts>1</NumElts>
+<NumElts>5</NumElts>
 <U8>
 <Name>DAC Channel</Name>
 <Val>3</Val>
 </U8>
+<U8>
+<Name>ROT Bias</Name>
+<Val>70</Val>
+</U8>
+<DBL>
+<Name>Minimum Voltage</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum Voltage</Name>
+<Val>4.09600000000000</Val>
+</DBL>
+<DBL>
+<Name>Off Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
 </Cluster>
 </LvVariant>
 </LVData>
