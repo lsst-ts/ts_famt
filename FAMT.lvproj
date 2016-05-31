@@ -173,9 +173,11 @@
 			<Item Name="StandbyState.lvclass" Type="LVClass" URL="../States/StandbyState/StandbyState.lvclass"/>
 			<Item Name="WaitForUserInputState.lvclass" Type="LVClass" URL="../States/WaitForUserInputState/WaitForUserInputState.lvclass"/>
 		</Item>
-		<Item Name="TEI-9150" Type="Folder">
+		<Item Name="Tovey" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="ToveyChannels.ctl" Type="VI" URL="../TEI-9150/ToveyChannels.ctl"/>
 			<Item Name="LoadCellCalibrationData.ctl" Type="VI" URL="../TEI-9150/LoadCellCalibrationData.ctl"/>
-			<Item Name="TEI9150.lvclass" Type="LVClass" URL="../TEI-9150/TEI9150.lvclass"/>
+			<Item Name="Tovey9150.lvclass" Type="LVClass" URL="../TEI-9150/Tovey9150.lvclass"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="FAMTTypedefs.lvlib" Type="Library" URL="../Typedefs/FAMTTypedefs.lvlib"/>
