@@ -12,31 +12,19 @@
 </U8>
 <DBL>
 <Name>Reference Voltage Vref</Name>
-<Val>4.17000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <Cluster>
 <Name>Force Sensor Calculator</Name>
-<NumElts>3</NumElts>
+<NumElts>2</NumElts>
 <DBL>
 <Name>Capacity</Name>
-<Val>750.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Sensitivity</Name>
-<Val>3.00000000000000E-3</Val>
+<Val>1.00000000000000E-3</Val>
 </DBL>
-<Cluster>
-<Name>Bridge Resistors</Name>
-<NumElts>2</NumElts>
-<DBL>
-<Name>R1</Name>
-<Val>1.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>R2</Name>
-<Val>1.00000000000000</Val>
-</DBL>
-</Cluster>
 </Cluster>
 </Cluster>
 </LvVariant>

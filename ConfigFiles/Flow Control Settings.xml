@@ -5,10 +5,10 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Flow Control Settings</Name>
-<NumElts>5</NumElts>
+<NumElts>6</NumElts>
 <U8>
 <Name>DAC Channel</Name>
-<Val>3</Val>
+<Val>1</Val>
 </U8>
 <U8>
 <Name>ROT Bias</Name>
@@ -26,6 +26,30 @@
 <Name>Off Value</Name>
 <Val>0.00000000000000</Val>
 </DBL>
+<Cluster>
+<Name>Closed Loop Settings</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>P</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>I</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<DBL>
+<Name>D</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Minimum</Name>
+<Val>-1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
 </Cluster>
 </LvVariant>
 </LVData>
