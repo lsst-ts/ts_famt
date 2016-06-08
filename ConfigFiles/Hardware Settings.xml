@@ -1,0 +1,26 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Hardware Settings</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Actuator Types</Name>
+<Choice>Single</Choice>
+<Choice>Dual</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Cylinder Types</Name>
+<Choice>PSV Open</Choice>
+<Choice>PSV Closed</Choice>
+<Choice>TV Open</Choice>
+<Choice>TV Closed</Choice>
+<Choice>Closed</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</LvVariant>
+</LVData>

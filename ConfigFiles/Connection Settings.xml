@@ -1,0 +1,87 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Connection Settings</Name>
+<NumElts>14</NumElts>
+<U8>
+<Name>Pressure Servo Valve 1 DAC</Name>
+<Val>1</Val>
+</U8>
+<U8>
+<Name>Pressure Servo Valve 2 DAC</Name>
+<Val>2</Val>
+</U8>
+<U8>
+<Name>Flow Control Valve DAC</Name>
+<Val>3</Val>
+</U8>
+<U8>
+<Name>FC1 Load Cell ADC</Name>
+<Val>2</Val>
+</U8>
+<Refnum>
+<Name>FC1 ILC Port</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>FC2 ILC Port</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>Tovey A-B Port</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>Tovey C-D Port</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>Tovey E-F Port</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<EW>
+<Name>FC1 ILC Protocol</Name>
+<Choice>RS232</Choice>
+<Choice>RS485</Choice>
+<Choice>SerialSimulator</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>FC2 ILC Protocol</Name>
+<Choice>RS232</Choice>
+<Choice>RS485</Choice>
+<Choice>SerialSimulator</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Tovey A-B Protocol</Name>
+<Choice>RS232</Choice>
+<Choice>RS485</Choice>
+<Choice>SerialSimulator</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Tovey C-D Protocol</Name>
+<Choice>RS232</Choice>
+<Choice>RS485</Choice>
+<Choice>SerialSimulator</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Tovey E-F Protocol</Name>
+<Choice>RS232</Choice>
+<Choice>RS485</Choice>
+<Choice>SerialSimulator</Choice>
+<Val>1</Val>
+</EW>
+</Cluster>
+</LvVariant>
+</LVData>

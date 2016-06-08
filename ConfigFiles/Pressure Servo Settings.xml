@@ -5,7 +5,7 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Pressure Servo Settings</Name>
-<NumElts>7</NumElts>
+<NumElts>4</NumElts>
 <DBL>
 <Name>Center Point</Name>
 <Val>413685.47337094682700</Val>
@@ -18,41 +18,9 @@
 <Name>PA to PSI</Name>
 <Val>1.45038000000000E-4</Val>
 </DBL>
-<U8>
-<Name>Servo 1 DAC Channel</Name>
-<Val>1</Val>
-</U8>
-<U8>
-<Name>Servo 2 DAC Channel</Name>
-<Val>2</Val>
-</U8>
-<Cluster>
-<Name>Closed Loop Settings</Name>
-<NumElts>5</NumElts>
-<DBL>
-<Name>P</Name>
-<Val>1.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>I</Name>
-<Val>0.10000000000000</Val>
-</DBL>
-<DBL>
-<Name>D</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Minimum</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Maximum</Name>
-<Val>10.00000000000000</Val>
-</DBL>
-</Cluster>
 <DBL>
 <Name>Off Value</Name>
-<Val>4000.00000000000000</Val>
+<Val>4.53600000000000E-3</Val>
 </DBL>
 </Cluster>
 </LvVariant>

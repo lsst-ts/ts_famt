@@ -5,11 +5,7 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Flow Control Settings</Name>
-<NumElts>5</NumElts>
-<U8>
-<Name>DAC Channel</Name>
-<Val>3</Val>
-</U8>
+<NumElts>4</NumElts>
 <U8>
 <Name>ROT Bias</Name>
 <Val>70</Val>
