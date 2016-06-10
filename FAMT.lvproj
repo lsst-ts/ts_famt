@@ -79,9 +79,7 @@
 			</Item>
 			<Item Name="Tovey" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="ToveyChannels.ctl" Type="VI" URL="../Model/TEI-9150/ToveyChannels.ctl"/>
-				<Item Name="LoadCellCalibrationData.ctl" Type="VI" URL="../Model/TEI-9150/LoadCellCalibrationData.ctl"/>
-				<Item Name="Tovey9150.lvclass" Type="LVClass" URL="../Model/TEI-9150/Tovey9150.lvclass"/>
+				<Item Name="Tovey 9150.lvclass" Type="LVClass" URL="../Model/TEI-9150/Tovey 9150.lvclass"/>
 			</Item>
 			<Item Name="Waveforms" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>

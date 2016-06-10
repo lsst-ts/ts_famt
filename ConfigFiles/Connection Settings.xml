@@ -5,7 +5,7 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Connection Settings</Name>
-<NumElts>14</NumElts>
+<NumElts>17</NumElts>
 <U8>
 <Name>Pressure Servo Valve 1 DAC</Name>
 <Val>1</Val>
@@ -20,7 +20,7 @@
 </U8>
 <U8>
 <Name>Load Cell ADC</Name>
-<Val>2</Val>
+<Val>1</Val>
 </U8>
 <Refnum>
 <Name>FC1 ILC Port</Name>
@@ -35,7 +35,7 @@
 <Refnum>
 <Name>Tovey A-B Port</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>COM3</Val>
 </Refnum>
 <Refnum>
 <Name>Tovey C-D Port</Name>
@@ -73,15 +73,27 @@
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>2</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Tovey E-F Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>2</Val>
+<Val>1</Val>
 </EW>
+<U8>
+<Name>Tovey A-B Address</Name>
+<Val>1</Val>
+</U8>
+<U8>
+<Name>Tovey C-D Address</Name>
+<Val>1</Val>
+</U8>
+<U8>
+<Name>Tovey E-F Address</Name>
+<Val>1</Val>
+</U8>
 </Cluster>
 </LvVariant>
 </LVData>
