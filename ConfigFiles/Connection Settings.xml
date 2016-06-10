@@ -19,7 +19,7 @@
 <Val>3</Val>
 </U8>
 <U8>
-<Name>FC1 Load Cell ADC</Name>
+<Name>Load Cell ADC</Name>
 <Val>2</Val>
 </U8>
 <Refnum>
@@ -52,35 +52,35 @@
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EW>
 <EW>
 <Name>FC2 ILC Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EW>
 <EW>
 <Name>Tovey A-B Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EW>
 <EW>
 <Name>Tovey C-D Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EW>
 <EW>
 <Name>Tovey E-F Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EW>
 </Cluster>
 </LvVariant>

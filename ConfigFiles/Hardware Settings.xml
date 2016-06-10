@@ -10,7 +10,7 @@
 <Name>Actuator Types</Name>
 <Choice>Single</Choice>
 <Choice>Dual</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Cylinder Types</Name>

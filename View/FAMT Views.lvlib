@@ -8,14 +8,17 @@
 		<Item Name="ILC ADC.ctl" Type="VI" URL="../../Typedefs/ILC ADC.ctl"/>
 	</Item>
 	<Item Name="Application Control View.vi" Type="VI" URL="../Application Control View.vi"/>
+	<Item Name="Chart View.vi" Type="VI" URL="../Chart View.vi"/>
+	<Item Name="Cylinder Chart View.vi" Type="VI" URL="../Cylinder Chart View.vi"/>
 	<Item Name="FAMT View.vi" Type="VI" URL="../FAMT View.vi"/>
 	<Item Name="famtViewRTM.rtm" Type="Document" URL="../famtViewRTM.rtm"/>
 	<Item Name="Fault View.vi" Type="VI" URL="../Fault View.vi"/>
 	<Item Name="ILC ADC View.vi" Type="VI" URL="../ILC ADC View.vi"/>
 	<Item Name="ILC Outputs View.vi" Type="VI" URL="../ILC Outputs View.vi"/>
-	<Item Name="Scan Chart View.vi" Type="VI" URL="../Scan Chart View.vi"/>
+	<Item Name="Moment Chart View.vi" Type="VI" URL="../Moment Chart View.vi"/>
 	<Item Name="Scan Control View.vi" Type="VI" URL="../Scan Control View.vi"/>
 	<Item Name="Scan Status View.vi" Type="VI" URL="../Scan Status View.vi"/>
 	<Item Name="Set Control Visibility.vi" Type="VI" URL="../Set Control Visibility.vi"/>
 	<Item Name="Subpanel Helper.vi" Type="VI" URL="../Subpanel Helper.vi"/>
+	<Item Name="Translation Chart View.vi" Type="VI" URL="../Translation Chart View.vi"/>
 </Library>
