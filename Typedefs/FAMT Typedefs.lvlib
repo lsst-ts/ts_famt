@@ -25,6 +25,4 @@
 	<Item Name="Turbo Valve Settings.ctl" Type="VI" URL="../Turbo Valve Settings.ctl"/>
 	<Item Name="Waveform Settings.ctl" Type="VI" URL="../Waveform Settings.ctl"/>
 	<Item Name="Waveform Types.ctl" Type="VI" URL="../Waveform Types.ctl"/>
-	<Item Name="Write Data File Arguments.ctl" Type="VI" URL="../Write Data File Arguments.ctl"/>
-	<Item Name="Write Log Message Arguments.ctl" Type="VI" URL="../Write Log Message Arguments.ctl"/>
 </Library>

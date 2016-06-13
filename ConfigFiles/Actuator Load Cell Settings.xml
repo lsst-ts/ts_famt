@@ -8,11 +8,11 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>Capacity</Name>
-<Val>1.00000000000000</Val>
+<Val>3336.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Sensitivity</Name>
-<Val>1.00000000000000E-3</Val>
+<Val>3.33360000000000E-3</Val>
 </DBL>
 </Cluster>
 </LvVariant>
