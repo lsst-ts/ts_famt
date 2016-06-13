@@ -73,14 +73,14 @@
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EW>
 <EW>
 <Name>Tovey E-F Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EW>
 <U8>
 <Name>Tovey A-B Address</Name>
