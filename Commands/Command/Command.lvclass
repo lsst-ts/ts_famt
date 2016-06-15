@@ -24,6 +24,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Public" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Execute.vi" Type="VI" URL="../Execute.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$U.P&lt;H2F?(1O&lt;(:D&lt;'&amp;T=Q!,1W^O&gt;'6Y&gt;#"P&gt;81!*E"Q!"Y!!"%01W^N&lt;7&amp;O:#ZM&gt;G.M98.T!!N$&lt;WVN97ZE)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#:!=!!?!!!2$U.P&lt;H2F?(1O&lt;(:D&lt;'&amp;T=Q!+1W^O&gt;'6Y&gt;#"J&lt;A!!*E"Q!"Y!!"%01W^N&lt;7&amp;O:#ZM&gt;G.M98.T!!J$&lt;WVN97ZE)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!A!#1)!!(A!!!U)!!!!!!!!$1I!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!E!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

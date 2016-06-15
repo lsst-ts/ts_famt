@@ -4,7 +4,7 @@
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
-<Name>Flow Control Settings</Name>
+<Name>Turbo Valve Settings</Name>
 <NumElts>4</NumElts>
 <U8>
 <Name>ROT Bias</Name>
@@ -16,11 +16,11 @@
 </DBL>
 <DBL>
 <Name>Maximum Voltage</Name>
-<Val>5.00000000000000</Val>
+<Val>4.09600000000000</Val>
 </DBL>
 <DBL>
 <Name>Off Value</Name>
-<Val>2.50000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
 </LvVariant>

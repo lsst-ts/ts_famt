@@ -1,0 +1,39 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Force Sensor Settings</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Reference Voltage Vref</Name>
+<Val>4.09600000000000</Val>
+</DBL>
+<Cluster>
+<Name>FC1 Force Sensor</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Capacity</Name>
+<Val>3336.16600000000016</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity</Name>
+<Val>3.33230000000000E-3</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>FC2 Force Sensor</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Capacity</Name>
+<Val>3336.16600000000016</Val>
+</DBL>
+<DBL>
+<Name>Sensitivity</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</LvVariant>
+</LVData>

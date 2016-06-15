@@ -56,6 +56,9 @@
 			<Item Name="Calculators" Type="Folder">
 				<Item Name="Force To Pressure Servo Valve Voltage.lvclass" Type="LVClass" URL="../Model/Calculators/Force To Pressure Servo Valve Voltage/Force To Pressure Servo Valve Voltage.lvclass"/>
 			</Item>
+			<Item Name="Fake ILC" Type="Folder">
+				<Item Name="Fake ILC.lvclass" Type="LVClass" URL="../Model/Fake ILC/Fake ILC.lvclass"/>
+			</Item>
 			<Item Name="ILC ADC" Type="Folder">
 				<Item Name="ILC ADC 1.lvclass" Type="LVClass" URL="../Model/ILC ADC/ILC ADC 1/ILC ADC 1.lvclass"/>
 				<Item Name="ILC ADC 2.lvclass" Type="LVClass" URL="../Model/ILC ADC/ILC ADC 2/ILC ADC 2.lvclass"/>
@@ -103,8 +106,8 @@
 			<Item Name="State.lvclass" Type="LVClass" URL="../States/State/State.lvclass"/>
 			<Item Name="Wait For User Input State.lvclass" Type="LVClass" URL="../States/Wait For User Input State/Wait For User Input State.lvclass"/>
 		</Item>
-		<Item Name="UserEvents" Type="Folder">
-			<Item Name="UserEvents.lvclass" Type="LVClass" URL="../UserEvents/UserEvents.lvclass"/>
+		<Item Name="User Events" Type="Folder">
+			<Item Name="User Events.lvclass" Type="LVClass" URL="../User Events/User Events.lvclass"/>
 		</Item>
 		<Item Name="FAMT Typedefs.lvlib" Type="Library" URL="../Typedefs/FAMT Typedefs.lvlib"/>
 		<Item Name="FAMT Views.lvlib" Type="Library" URL="../View/FAMT Views.lvlib"/>
@@ -192,7 +195,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FAMT</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DAC38C13-5F1A-4D28-A357-61A750FE3FEB}</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FAMT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FAMT/FAMT.exe</Property>
