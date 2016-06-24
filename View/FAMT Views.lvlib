@@ -13,6 +13,8 @@
 	<Item Name="FAMT View.vi" Type="VI" URL="../FAMT View.vi"/>
 	<Item Name="famtViewRTM.rtm" Type="Document" URL="../famtViewRTM.rtm"/>
 	<Item Name="Fault View.vi" Type="VI" URL="../Fault View.vi"/>
+	<Item Name="FC1 Chart View.vi" Type="VI" URL="../FC1 Chart View.vi"/>
+	<Item Name="FC2 Chart View.vi" Type="VI" URL="../FC2 Chart View.vi"/>
 	<Item Name="ILC ADC View.vi" Type="VI" URL="../ILC ADC View.vi"/>
 	<Item Name="ILC Outputs View.vi" Type="VI" URL="../ILC Outputs View.vi"/>
 	<Item Name="Moment Chart View.vi" Type="VI" URL="../Moment Chart View.vi"/>

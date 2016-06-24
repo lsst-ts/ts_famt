@@ -172,6 +172,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
+		<Item Name="Read PID Settings.vi" Type="VI" URL="../Read PID Settings.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*E!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!&gt;!#A!"5!!(1!I!!5E!"U!+!!&amp;%!!V!#A!(47FO;7VV&lt;1!.1!I!"UVB?'FN&gt;7U!:Q$RUXT9DQ!!!!)42E&amp;.6#"5?8"F:'6G=SZM&gt;GRJ9BB$&lt;'^T:71A4'^P=#"4:82U;7ZH=SZD&gt;'Q!-E"1!!5!"1!'!!=!#!!*(6"S:8.T&gt;8*F)&amp;.F=H:P)&amp;:B&lt;(:F)&amp;.F&gt;(2J&lt;G&gt;T!&amp;]!]&gt;.]W)]!!!!#%U:"461A6(FQ:72F:H-O&lt;(:M;7)91WRP=W6E)%RP&lt;X!A5W6U&gt;'FO:X-O9X2M!#J!5!!&amp;!!5!"A!(!!A!#225&gt;8*C&lt;S"797RW:3"4:82U;7ZH=Q!!31$RUXT&gt;`A!!!!)42E&amp;.6#"5?8"F:'6G=SZM&gt;GRJ9B"1351A5W6U&gt;'FO:X-O9X2M!"R!5!!#!!I!#QR1351A5W6U&gt;'FO:X-!!#Z!=!!?!!!6%U*P&lt;X1A4'^B:'6S,GRW9WRB=X-!$U*P&lt;X1A4'^B:'6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#Z!=!!?!!!6%U*P&lt;X1A4'^B:'6S,GRW9WRB=X-!$E*P&lt;X1A4'^B:'6S)'FO!!"B!0!!$!!$!!1!$!!.!!1!"!!%!!1!$A!%!!1!$Q-!!(A!!!U)!!!!!!!!#1!!!!5,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!$1!!!!Q!!!!!!!!!!!!!!1!1!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
 		<Item Name="Read Pressure Servo Valve Settings.vi" Type="VI" URL="../Read Pressure Servo Valve Settings.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(C!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#6!'A!%!!,``1!$!!)!"!!"!!8``Q!-1W6O&gt;'6S)&amp;"P;7ZU!!!,1!I!"%&amp;S:7%!!!^!#A!*5%%A&gt;']A5&amp;.*!!^!#A!*4W:G)&amp;:B&lt;(6F!'Y!]&gt;.]WMI!!!!#%U:"461A6(FQ:72F:H-O&lt;(:M;7)B5(*F=X.V=G5A5W6S&gt;G]A6G&amp;M&gt;G5A5W6U&gt;'FO:X-O9X2M!$"!5!!%!!5!"A!(!!A&gt;5(*F=X.V=G5A5W6S&gt;G]A6G&amp;M&gt;G5A5W6U&gt;'FO:X-!,E"Q!"Y!!"541G^P&gt;#"-&lt;W&amp;E:8)O&lt;(:D&lt;'&amp;T=Q!01G^P&gt;#"-&lt;W&amp;E:8)A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!,E"Q!"Y!!"541G^P&gt;#"-&lt;W&amp;E:8)O&lt;(:D&lt;'&amp;T=Q!/1G^P&gt;#"-&lt;W&amp;E:8)A;7Y!!'%!]!!-!!-!"!!*!!I!"!!%!!1!"!!,!!1!"!!-!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!.!!!!$!!!!!!!!!!!!!!"!!U!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

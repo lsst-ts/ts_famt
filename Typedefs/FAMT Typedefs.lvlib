@@ -10,6 +10,7 @@
 	<Item Name="Closed Loop Settings.ctl" Type="VI" URL="../Closed Loop Settings.ctl"/>
 	<Item Name="Command Types.ctl" Type="VI" URL="../Command Types.ctl"/>
 	<Item Name="Connection Settings.ctl" Type="VI" URL="../Connection Settings.ctl"/>
+	<Item Name="Cylinder Results.ctl" Type="VI" URL="../Cylinder Results.ctl"/>
 	<Item Name="Cylinder Types.ctl" Type="VI" URL="../Cylinder Types.ctl"/>
 	<Item Name="Force Sensor Settings.ctl" Type="VI" URL="../Force Sensor Settings.ctl"/>
 	<Item Name="Hardware Settings.ctl" Type="VI" URL="../Hardware Settings.ctl"/>
