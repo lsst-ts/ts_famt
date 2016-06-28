@@ -6,10 +6,10 @@
 <Cluster>
 <Name>Turbo Valve Settings</Name>
 <NumElts>4</NumElts>
-<U8>
-<Name>ROT Bias</Name>
-<Val>70</Val>
-</U8>
+<U16>
+<Name>Bias</Name>
+<Val>32768</Val>
+</U16>
 <DBL>
 <Name>Minimum Voltage</Name>
 <Val>0.00000000000000</Val>

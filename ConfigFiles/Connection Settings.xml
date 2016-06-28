@@ -5,7 +5,7 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Connection Settings</Name>
-<NumElts>17</NumElts>
+<NumElts>18</NumElts>
 <U8>
 <Name>Pressure Servo Valve 1 DAC</Name>
 <Val>1</Val>
@@ -25,7 +25,7 @@
 <Refnum>
 <Name>FC1 ILC Port</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>COM49</Val>
 </Refnum>
 <Refnum>
 <Name>FC2 ILC Port</Name>
@@ -35,17 +35,17 @@
 <Refnum>
 <Name>Tovey A-B Port</Name>
 <RefKind>VISA</RefKind>
-<Val>COM3</Val>
+<Val>COM6</Val>
 </Refnum>
 <Refnum>
 <Name>Tovey C-F Port</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>COM7</Val>
 </Refnum>
 <Refnum>
 <Name>Tovey D-E Port</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>COM8</Val>
 </Refnum>
 <EW>
 <Name>FC1 ILC Protocol</Name>
@@ -88,11 +88,15 @@
 </U8>
 <U8>
 <Name>Tovey C-F Address</Name>
-<Val>1</Val>
+<Val>2</Val>
 </U8>
 <U8>
 <Name>Tovey D-E Address</Name>
-<Val>1</Val>
+<Val>3</Val>
+</U8>
+<U8>
+<Name>Bias DAC</Name>
+<Val>4</Val>
 </U8>
 </Cluster>
 </LvVariant>

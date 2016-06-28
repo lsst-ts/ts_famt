@@ -8,7 +8,7 @@
 <NumElts>9</NumElts>
 <U32>
 <Name>Baud Rate</Name>
-<Val>46800</Val>
+<Val>460800</Val>
 </U32>
 <U16>
 <Name>Data Bits</Name>
