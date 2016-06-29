@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>15.0.1f1</Version>
+<Version>15.0f3</Version>
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
@@ -8,7 +8,7 @@
 <NumElts>4</NumElts>
 <Path>
 <Name>Log Directory</Name>
-<Val>C:\FAMT-Data</Val>
+<Val>C:\Foobar-Data</Val>
 </Path>
 <String>
 <Name>Log Filename Base</Name>
