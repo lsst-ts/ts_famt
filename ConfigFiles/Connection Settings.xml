@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>15.0f3</Version>
+<Version>15.0.1f1</Version>
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
@@ -52,7 +52,7 @@
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EW>
 <EW>
 <Name>FC2 ILC Protocol</Name>

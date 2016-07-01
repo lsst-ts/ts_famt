@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>15.0f3</Version>
+<Version>15.0.1f1</Version>
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
@@ -10,7 +10,7 @@
 <Name>Actuator Types</Name>
 <Choice>Single</Choice>
 <Choice>Dual</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Cylinder Types</Name>
