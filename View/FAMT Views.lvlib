@@ -7,6 +7,7 @@
 	<Item Name="Controls" Type="Folder">
 		<Item Name="ILC ADC.ctl" Type="VI" URL="../../Typedefs/ILC ADC.ctl"/>
 	</Item>
+	<Item Name="Actuator Chart View.vi" Type="VI" URL="../Actuator Chart View.vi"/>
 	<Item Name="Application Control View.vi" Type="VI" URL="../Application Control View.vi"/>
 	<Item Name="Chart View.vi" Type="VI" URL="../Chart View.vi"/>
 	<Item Name="Cylinder Chart View.vi" Type="VI" URL="../Cylinder Chart View.vi"/>

@@ -34,11 +34,12 @@
 		</Item>
 		<Item Name="Model" Type="Folder">
 			<Item Name="Actuator" Type="Folder">
-				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Actuator Factory.lvclass" Type="LVClass" URL="../Model/Actuator/Actuator Factory/Actuator Factory.lvclass"/>
-				<Item Name="Single Cylinder Actuator.lvclass" Type="LVClass" URL="../Model/Actuator/Single Cylinder Actuator/Single Cylinder Actuator.lvclass"/>
-				<Item Name="Dual Cylinder Actuator.lvclass" Type="LVClass" URL="../Model/Actuator/Dual Cylinder Actuator/Dual Cylinder Actuator.lvclass"/>
 				<Item Name="Actuator.lvclass" Type="LVClass" URL="../Model/Actuator/Actuator/Actuator.lvclass"/>
+				<Item Name="Dual Cylinder Actuator.lvclass" Type="LVClass" URL="../Model/Actuator/Dual Cylinder Actuator/Dual Cylinder Actuator.lvclass"/>
+				<Item Name="Dual Cylinder Outer Loop Actuator.lvclass" Type="LVClass" URL="../Model/Actuator/Dual Cylinder Outer Loop Actuator/Dual Cylinder Outer Loop Actuator.lvclass"/>
+				<Item Name="Single Cylinder Actuator.lvclass" Type="LVClass" URL="../Model/Actuator/Single Cylinder Actuator/Single Cylinder Actuator.lvclass"/>
 			</Item>
 			<Item Name="Actuator Cylinder" Type="Folder">
 				<Item Name="Actuator Cylinder Factory.lvclass" Type="LVClass" URL="../Model/Actuator Cylinder/Actuator Cylinder Factory/Actuator Cylinder Factory.lvclass"/>
@@ -54,7 +55,10 @@
 				<Item Name="Boot Loader.lvclass" Type="LVClass" URL="../Model/Boot Loader/Boot Loader.lvclass"/>
 			</Item>
 			<Item Name="Calculators" Type="Folder">
+				<Item Name="Actuator To Cylinder Forces.lvclass" Type="LVClass" URL="../Model/Calculators/Actuator To Cylinder Forces/Actuator To Cylinder Forces.lvclass"/>
+				<Item Name="Cylinder To Actuator Forces.lvclass" Type="LVClass" URL="../Model/Calculators/Cylinder To Actuator Forces/Cylinder To Actuator Forces.lvclass"/>
 				<Item Name="Force To Pressure Servo Valve Voltage.lvclass" Type="LVClass" URL="../Model/Calculators/Force To Pressure Servo Valve Voltage/Force To Pressure Servo Valve Voltage.lvclass"/>
+				<Item Name="Force To Turbo Valve Current.lvclass" Type="LVClass" URL="../Model/Calculators/Force To Turbo Valve Current/Force To Turbo Valve Current.lvclass"/>
 				<Item Name="Percentage To Turbo Valve Voltage.lvclass" Type="LVClass" URL="../Model/Calculators/Percentage To Turbo Valve Voltage/Percentage To Turbo Valve Voltage.lvclass"/>
 			</Item>
 			<Item Name="Fake ILC" Type="Folder">
@@ -118,7 +122,6 @@
 				<Item Name="ConfigurationReader.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/ConfigurationReader/ConfigurationReader.lvclass"/>
 				<Item Name="ForceSensorCalculator.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Devices/ForceSensorCalculator/ForceSensorCalculator.lvlib"/>
 				<Item Name="ILCCommon.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/ILC/ILCCommon.lvlib"/>
-				<Item Name="Log.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Log/Log.lvlib"/>
 				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
 				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
 			</Item>
@@ -196,7 +199,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FAMT</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DAC38C13-5F1A-4D28-A357-61A750FE3FEB}</Property>
-				<Property Name="Bld_version.build" Type="Int">66</Property>
+				<Property Name="Bld_version.build" Type="Int">75</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FAMT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FAMT/FAMT.exe</Property>

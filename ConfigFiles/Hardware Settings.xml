@@ -10,7 +10,8 @@
 <Name>Actuator Types</Name>
 <Choice>Single</Choice>
 <Choice>Dual</Choice>
-<Val>1</Val>
+<Choice>Dual Outer</Choice>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Cylinder Types</Name>
@@ -19,11 +20,11 @@
 <Choice>TV Open</Choice>
 <Choice>TV Closed</Choice>
 <Choice>Closed</Choice>
-<Val>2</Val>
+<Val>0</Val>
 </EW>
 <DBL>
 <Name>Calibrated Load Cell Moment</Name>
-<Val>0.12700000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
 </LvVariant>

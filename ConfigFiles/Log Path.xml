@@ -1,0 +1,11 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Path>
+<Name>Log Path</Name>
+<Val>C:\Foobar-Data\GOGOGO</Val>
+</Path>
+</LvVariant>
+</LVData>
