@@ -59,6 +59,7 @@
 				<Item Name="Cylinder To Actuator Forces.lvclass" Type="LVClass" URL="../Model/Calculators/Cylinder To Actuator Forces/Cylinder To Actuator Forces.lvclass"/>
 				<Item Name="Force To Pressure Servo Valve Voltage.lvclass" Type="LVClass" URL="../Model/Calculators/Force To Pressure Servo Valve Voltage/Force To Pressure Servo Valve Voltage.lvclass"/>
 				<Item Name="Force To Turbo Valve Current.lvclass" Type="LVClass" URL="../Model/Calculators/Force To Turbo Valve Current/Force To Turbo Valve Current.lvclass"/>
+				<Item Name="Limit ILC Voltage.lvclass" Type="LVClass" URL="../Model/Calculators/Limit ILC Voltage/Limit ILC Voltage.lvclass"/>
 				<Item Name="Percentage To Turbo Valve Voltage.lvclass" Type="LVClass" URL="../Model/Calculators/Percentage To Turbo Valve Voltage/Percentage To Turbo Valve Voltage.lvclass"/>
 			</Item>
 			<Item Name="Fake ILC" Type="Folder">
@@ -199,7 +200,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FAMT</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DAC38C13-5F1A-4D28-A357-61A750FE3FEB}</Property>
-				<Property Name="Bld_version.build" Type="Int">75</Property>
+				<Property Name="Bld_version.build" Type="Int">77</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FAMT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FAMT/FAMT.exe</Property>

@@ -20,7 +20,7 @@
 <Choice>TV Open</Choice>
 <Choice>TV Closed</Choice>
 <Choice>Closed</Choice>
-<Val>0</Val>
+<Val>2</Val>
 </EW>
 <DBL>
 <Name>Calibrated Load Cell Moment</Name>
