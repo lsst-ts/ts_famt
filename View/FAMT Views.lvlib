@@ -19,6 +19,7 @@
 	<Item Name="ILC ADC View.vi" Type="VI" URL="../ILC ADC View.vi"/>
 	<Item Name="ILC Outputs View.vi" Type="VI" URL="../ILC Outputs View.vi"/>
 	<Item Name="Moment Chart View.vi" Type="VI" URL="../Moment Chart View.vi"/>
+	<Item Name="Pressure Chart View.vi" Type="VI" URL="../Pressure Chart View.vi"/>
 	<Item Name="Scan Control View.vi" Type="VI" URL="../Scan Control View.vi"/>
 	<Item Name="Scan Status View.vi" Type="VI" URL="../Scan Status View.vi"/>
 	<Item Name="Set Control Visibility.vi" Type="VI" URL="../Set Control Visibility.vi"/>

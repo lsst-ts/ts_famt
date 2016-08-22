@@ -16,6 +16,8 @@
 	<Item Name="Hardware Settings.ctl" Type="VI" URL="../Hardware Settings.ctl"/>
 	<Item Name="Log Path.ctl" Type="VI" URL="../Log Path.ctl"/>
 	<Item Name="PID Settings.ctl" Type="VI" URL="../PID Settings.ctl"/>
+	<Item Name="Pressure Data.ctl" Type="VI" URL="../Pressure Data.ctl"/>
+	<Item Name="Pressure Sensor Settings.ctl" Type="VI" URL="../Pressure Sensor Settings.ctl"/>
 	<Item Name="Pressure Servo Valve Settings.ctl" Type="VI" URL="../Pressure Servo Valve Settings.ctl"/>
 	<Item Name="Publish Data Events.ctl" Type="VI" URL="../Publish Data Events.ctl"/>
 	<Item Name="Scan Progress.ctl" Type="VI" URL="../Scan Progress.ctl"/>
