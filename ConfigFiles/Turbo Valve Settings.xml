@@ -6,17 +6,17 @@
 <Cluster>
 <Name>Turbo Valve Settings</Name>
 <NumElts>4</NumElts>
-<U16>
+<DBL>
 <Name>Bias</Name>
-<Val>32768</Val>
-</U16>
+<Val>2.04800000000000</Val>
+</DBL>
 <DBL>
 <Name>Minimum Voltage</Name>
-<Val>0.00000000000000</Val>
+<Val>-4.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Maximum Voltage</Name>
-<Val>4.09600000000000</Val>
+<Val>4.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Off Value</Name>

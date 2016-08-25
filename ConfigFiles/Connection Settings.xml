@@ -5,7 +5,7 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Connection Settings</Name>
-<NumElts>22</NumElts>
+<NumElts>25</NumElts>
 <U8>
 <Name>Pressure Servo Valve 1 DAC</Name>
 <Val>1</Val>
@@ -122,6 +122,22 @@
 <RefType>NIDAQ</RefType>
 <Val>ai3</Val>
 </Refnum>
+<Refnum>
+<Name>TV Control</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val>ao0</Val>
+</Refnum>
+<Refnum>
+<Name>TV Bias</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val>ao1</Val>
+</Refnum>
+<U8>
+<Name>Rate</Name>
+<Val>200</Val>
+</U8>
 </Cluster>
 </LvVariant>
 </LVData>
