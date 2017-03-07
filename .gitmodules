@@ -1,0 +1,12 @@
+[submodule "Common_RT_FAILC"]
+	path = Common_RT_FAILC
+	url = https://stash.lsstcorp.org/scm/ts/common_rt_failc.git
+[submodule "Common_RT_ILC"]
+	path = Common_RT_ILC
+	url = https://stash.lsstcorp.org/scm/ts/common_rt_ilc.git
+[submodule "Common_RT_FPGA"]
+	path = Common_RT_FPGA
+	url = https://ccontaxis@stash.lsstcorp.org/scm/ts/common_rt_fpga.git
+[submodule "Common_RT_Modbus"]
+	path = Common_RT_Modbus
+	url = https://ccontaxis@stash.lsstcorp.org/scm/ts/common_rt_modbus.git
