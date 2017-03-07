@@ -5,30 +5,9 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Connection Settings</Name>
-<NumElts>22</NumElts>
-<U8>
-<Name>Pressure Servo Valve 1 DAC</Name>
-<Val>1</Val>
-</U8>
-<U8>
-<Name>Pressure Servo Valve 2 DAC</Name>
-<Val>2</Val>
-</U8>
-<U8>
-<Name>Turbo Valve DAC</Name>
-<Val>3</Val>
-</U8>
-<U8>
-<Name>Load Cell ADC</Name>
-<Val>2</Val>
-</U8>
+<NumElts>10</NumElts>
 <Refnum>
-<Name>FC1 ILC Port</Name>
-<RefKind>VISA</RefKind>
-<Val></Val>
-</Refnum>
-<Refnum>
-<Name>FC2 ILC Port</Name>
+<Name>ILC Port</Name>
 <RefKind>VISA</RefKind>
 <Val></Val>
 </Refnum>
@@ -48,39 +27,25 @@
 <Val></Val>
 </Refnum>
 <EW>
-<Name>FC1 ILC Protocol</Name>
-<Choice>RS232</Choice>
-<Choice>RS485</Choice>
-<Choice>SerialSimulator</Choice>
-<Val>2</Val>
-</EW>
-<EW>
-<Name>FC2 ILC Protocol</Name>
-<Choice>RS232</Choice>
-<Choice>RS485</Choice>
-<Choice>SerialSimulator</Choice>
-<Val>2</Val>
-</EW>
-<EW>
 <Name>Tovey A-B Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>2</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Tovey C-F Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>2</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Tovey D-E Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>2</Val>
+<Val>1</Val>
 </EW>
 <U8>
 <Name>Tovey A-B Address</Name>
@@ -94,34 +59,6 @@
 <Name>Tovey D-E Address</Name>
 <Val>1</Val>
 </U8>
-<U8>
-<Name>Bias DAC</Name>
-<Val>4</Val>
-</U8>
-<Refnum>
-<Name>Axial Push Channel</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>ai0</Val>
-</Refnum>
-<Refnum>
-<Name>Axial Pull Channel</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>ai1</Val>
-</Refnum>
-<Refnum>
-<Name>Lateral Push Channel</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>ai2</Val>
-</Refnum>
-<Refnum>
-<Name>Lateral Pull Channel</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>ai3</Val>
-</Refnum>
 </Cluster>
 </LvVariant>
 </LVData>

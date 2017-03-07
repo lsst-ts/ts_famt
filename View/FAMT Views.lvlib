@@ -4,20 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Controls" Type="Folder">
-		<Item Name="ILC ADC.ctl" Type="VI" URL="../../Typedefs/ILC ADC.ctl"/>
-	</Item>
 	<Item Name="Actuator Chart View.vi" Type="VI" URL="../Actuator Chart View.vi"/>
 	<Item Name="Application Control View.vi" Type="VI" URL="../Application Control View.vi"/>
-	<Item Name="Chart View.vi" Type="VI" URL="../Chart View.vi"/>
-	<Item Name="Cylinder Chart View.vi" Type="VI" URL="../Cylinder Chart View.vi"/>
 	<Item Name="FAMT View.vi" Type="VI" URL="../FAMT View.vi"/>
 	<Item Name="famtViewRTM.rtm" Type="Document" URL="../famtViewRTM.rtm"/>
 	<Item Name="Fault View.vi" Type="VI" URL="../Fault View.vi"/>
-	<Item Name="FC1 Chart View.vi" Type="VI" URL="../FC1 Chart View.vi"/>
-	<Item Name="FC2 Chart View.vi" Type="VI" URL="../FC2 Chart View.vi"/>
-	<Item Name="ILC ADC View.vi" Type="VI" URL="../ILC ADC View.vi"/>
-	<Item Name="ILC Outputs View.vi" Type="VI" URL="../ILC Outputs View.vi"/>
 	<Item Name="Moment Chart View.vi" Type="VI" URL="../Moment Chart View.vi"/>
 	<Item Name="Pressure Chart View.vi" Type="VI" URL="../Pressure Chart View.vi"/>
 	<Item Name="Scan Control View.vi" Type="VI" URL="../Scan Control View.vi"/>

@@ -4,29 +4,25 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Actuate Arguments.ctl" Type="VI" URL="../Actuate Arguments.ctl"/>
-	<Item Name="Actuate Results.ctl" Type="VI" URL="../Actuate Results.ctl"/>
-	<Item Name="Actuator Types.ctl" Type="VI" URL="../Actuator Types.ctl"/>
-	<Item Name="Closed Loop Settings.ctl" Type="VI" URL="../Closed Loop Settings.ctl"/>
-	<Item Name="Command Types.ctl" Type="VI" URL="../Command Types.ctl"/>
-	<Item Name="Connection Settings.ctl" Type="VI" URL="../Connection Settings.ctl"/>
-	<Item Name="Cylinder Results.ctl" Type="VI" URL="../Cylinder Results.ctl"/>
-	<Item Name="Cylinder Types.ctl" Type="VI" URL="../Cylinder Types.ctl"/>
-	<Item Name="Force Sensor Settings.ctl" Type="VI" URL="../Force Sensor Settings.ctl"/>
-	<Item Name="Hardware Settings.ctl" Type="VI" URL="../Hardware Settings.ctl"/>
-	<Item Name="Log Path.ctl" Type="VI" URL="../Log Path.ctl"/>
-	<Item Name="PID Settings.ctl" Type="VI" URL="../PID Settings.ctl"/>
-	<Item Name="Pressure Data.ctl" Type="VI" URL="../Pressure Data.ctl"/>
-	<Item Name="Pressure Sensor Settings.ctl" Type="VI" URL="../Pressure Sensor Settings.ctl"/>
-	<Item Name="Pressure Servo Valve Settings.ctl" Type="VI" URL="../Pressure Servo Valve Settings.ctl"/>
+	<Item Name="ActuatorData.ctl" Type="VI" URL="../ActuatorData.ctl"/>
+	<Item Name="ActuatorSensorSettings.ctl" Type="VI" URL="../ActuatorSensorSettings.ctl"/>
+	<Item Name="ActuatorTypes.ctl" Type="VI" URL="../ActuatorTypes.ctl"/>
+	<Item Name="CommandTypes.ctl" Type="VI" URL="../CommandTypes.ctl"/>
+	<Item Name="ConnectionSettings.ctl" Type="VI" URL="../ConnectionSettings.ctl"/>
+	<Item Name="ForceActuatorPIDSettings.ctl" Type="VI" URL="../ForceActuatorPIDSettings.ctl"/>
+	<Item Name="HardwareSettings.ctl" Type="VI" URL="../HardwareSettings.ctl"/>
+	<Item Name="LoadCellSettings.ctl" Type="VI" URL="../LoadCellSettings.ctl"/>
+	<Item Name="LogPath.ctl" Type="VI" URL="../LogPath.ctl"/>
+	<Item Name="PressureData.ctl" Type="VI" URL="../PressureData.ctl"/>
 	<Item Name="Publish Data Events.ctl" Type="VI" URL="../Publish Data Events.ctl"/>
-	<Item Name="Scan Progress.ctl" Type="VI" URL="../Scan Progress.ctl"/>
-	<Item Name="Scan Settings.ctl" Type="VI" URL="../Scan Settings.ctl"/>
-	<Item Name="Serial Settings.ctl" Type="VI" URL="../Serial Settings.ctl"/>
-	<Item Name="State Types.ctl" Type="VI" URL="../State Types.ctl"/>
+	<Item Name="ScanProgress.ctl" Type="VI" URL="../ScanProgress.ctl"/>
+	<Item Name="ScanSettings.ctl" Type="VI" URL="../ScanSettings.ctl"/>
+	<Item Name="SerialSettings.ctl" Type="VI" URL="../SerialSettings.ctl"/>
+	<Item Name="StateTypes.ctl" Type="VI" URL="../StateTypes.ctl"/>
 	<Item Name="Subscribe Data Events.ctl" Type="VI" URL="../Subscribe Data Events.ctl"/>
-	<Item Name="Test Log Types.ctl" Type="VI" URL="../Test Log Types.ctl"/>
-	<Item Name="Turbo Valve Settings.ctl" Type="VI" URL="../Turbo Valve Settings.ctl"/>
-	<Item Name="Waveform Settings.ctl" Type="VI" URL="../Waveform Settings.ctl"/>
-	<Item Name="Waveform Types.ctl" Type="VI" URL="../Waveform Types.ctl"/>
+	<Item Name="TestLogTypes.ctl" Type="VI" URL="../TestLogTypes.ctl"/>
+	<Item Name="ToveyData.ctl" Type="VI" URL="../ToveyData.ctl"/>
+	<Item Name="ToveyRawData.ctl" Type="VI" URL="../ToveyRawData.ctl"/>
+	<Item Name="WaveformSettings.ctl" Type="VI" URL="../WaveformSettings.ctl"/>
+	<Item Name="WaveformTypes.ctl" Type="VI" URL="../WaveformTypes.ctl"/>
 </Library>

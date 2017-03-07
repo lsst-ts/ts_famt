@@ -1,0 +1,34 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>FASettings</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>ILCSettings</Name>
+<NumElts>2</NumElts>
+<U8>
+<Name>Subnet</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Address</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+<I16>
+<Name>ID</Name>
+<Val>0</Val>
+</I16>
+<EW>
+<Name>FATypes</Name>
+<Choice>SingleAxis</Choice>
+<Choice>LateralDualAxis</Choice>
+<Choice>CrossLateralDualAxis</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</LvVariant>
+</LVData>
