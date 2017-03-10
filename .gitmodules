@@ -10,3 +10,15 @@
 [submodule "Common_RT_Modbus"]
 	path = Common_RT_Modbus
 	url = https://ccontaxis@stash.lsstcorp.org/scm/ts/common_rt_modbus.git
+[submodule "Common_ConfigurationEditor"]
+	path = Common_ConfigurationEditor
+	url = https://stash.lsstcorp.org/scm/ts/common_configurationeditor.git
+[submodule "Common_ConfigurationReader"]
+	path = Common_ConfigurationReader
+	url = https://stash.lsstcorp.org/scm/ts/common_configurationreader.git
+[submodule "Common_SerialProtocols"]
+	path = Common_SerialProtocols
+	url = https://stash.lsstcorp.org/scm/ts/common_serialprotocols.git
+[submodule "Common_Simulators_SimulateSerialData"]
+	path = Common_Simulators_SimulateSerialData
+	url = https://stash.lsstcorp.org/scm/ts/common_simulators_simulateserialdata.git
