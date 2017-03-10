@@ -79,19 +79,17 @@
 		<Item Name="User Events" Type="Folder">
 			<Item Name="User Events.lvclass" Type="LVClass" URL="../User Events/User Events.lvclass"/>
 		</Item>
+		<Item Name="ConfigurationEditor.lvclass" Type="LVClass" URL="../Common_ConfigurationEditor/ConfigurationEditor.lvclass"/>
+		<Item Name="ConfigurationReader.lvclass" Type="LVClass" URL="../Common_ConfigurationReader/ConfigurationReader.lvclass"/>
 		<Item Name="FAMT Typedefs.lvlib" Type="Library" URL="../Typedefs/FAMT Typedefs.lvlib"/>
 		<Item Name="FAMT Views.lvlib" Type="Library" URL="../View/FAMT Views.lvlib"/>
 		<Item Name="RTFAILC.lvlib" Type="Library" URL="../Common_RT_FAILC/RTFAILC.lvlib"/>
 		<Item Name="RTFPGA.lvlib" Type="Library" URL="../Common_RT_FPGA/RTFPGA.lvlib"/>
 		<Item Name="RTILC.lvlib" Type="Library" URL="../Common_RT_ILC/RTILC.lvlib"/>
 		<Item Name="RTModbus.lvlib" Type="Library" URL="../Common_RT_Modbus/RTModbus.lvlib"/>
+		<Item Name="SerialProtocols.lvlib" Type="Library" URL="../Common_SerialProtocols/SerialProtocols.lvlib"/>
+		<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="../Common_Simulators_SimulateSerialData/SimulateSerialData.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="ConfigurationEditor.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/ConfigurationEditor/ConfigurationEditor.lvclass"/>
-				<Item Name="ConfigurationReader.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/ConfigurationReader/ConfigurationReader.lvclass"/>
-				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
