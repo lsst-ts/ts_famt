@@ -6,22 +6,24 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="ActuatorData.ctl" Type="VI" URL="../ActuatorData.ctl"/>
 	<Item Name="ActuatorSensorSettings.ctl" Type="VI" URL="../ActuatorSensorSettings.ctl"/>
+	<Item Name="ActuatorSetPoints.ctl" Type="VI" URL="../ActuatorSetPoints.ctl"/>
 	<Item Name="ActuatorTypes.ctl" Type="VI" URL="../ActuatorTypes.ctl"/>
 	<Item Name="CommandTypes.ctl" Type="VI" URL="../CommandTypes.ctl"/>
 	<Item Name="ConnectionSettings.ctl" Type="VI" URL="../ConnectionSettings.ctl"/>
 	<Item Name="ForceActuatorPIDSettings.ctl" Type="VI" URL="../ForceActuatorPIDSettings.ctl"/>
+	<Item Name="FullForceScanSettings.ctl" Type="VI" URL="../FullForceScanSettings.ctl"/>
 	<Item Name="HardwareSettings.ctl" Type="VI" URL="../HardwareSettings.ctl"/>
 	<Item Name="LoadCellSettings.ctl" Type="VI" URL="../LoadCellSettings.ctl"/>
 	<Item Name="LogPath.ctl" Type="VI" URL="../LogPath.ctl"/>
-	<Item Name="PressureData.ctl" Type="VI" URL="../PressureData.ctl"/>
 	<Item Name="Publish Data Events.ctl" Type="VI" URL="../Publish Data Events.ctl"/>
 	<Item Name="ScanProgress.ctl" Type="VI" URL="../ScanProgress.ctl"/>
-	<Item Name="ScanSettings.ctl" Type="VI" URL="../ScanSettings.ctl"/>
 	<Item Name="SerialSettings.ctl" Type="VI" URL="../SerialSettings.ctl"/>
 	<Item Name="StateTypes.ctl" Type="VI" URL="../StateTypes.ctl"/>
 	<Item Name="Subscribe Data Events.ctl" Type="VI" URL="../Subscribe Data Events.ctl"/>
+	<Item Name="TestData.ctl" Type="VI" URL="../TestData.ctl"/>
 	<Item Name="TestLogTypes.ctl" Type="VI" URL="../TestLogTypes.ctl"/>
-	<Item Name="ToveyData.ctl" Type="VI" URL="../ToveyData.ctl"/>
+	<Item Name="TestSettings.ctl" Type="VI" URL="../TestSettings.ctl"/>
+	<Item Name="ToveyEngData.ctl" Type="VI" URL="../ToveyEngData.ctl"/>
 	<Item Name="ToveyRawData.ctl" Type="VI" URL="../ToveyRawData.ctl"/>
 	<Item Name="WaveformSettings.ctl" Type="VI" URL="../WaveformSettings.ctl"/>
 	<Item Name="WaveformTypes.ctl" Type="VI" URL="../WaveformTypes.ctl"/>

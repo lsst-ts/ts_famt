@@ -15,5 +15,6 @@
 	<Item Name="Scan Status View.vi" Type="VI" URL="../Scan Status View.vi"/>
 	<Item Name="Set Control Visibility.vi" Type="VI" URL="../Set Control Visibility.vi"/>
 	<Item Name="Subpanel Helper.vi" Type="VI" URL="../Subpanel Helper.vi"/>
+	<Item Name="Test View.vi" Type="VI" URL="../Test View.vi"/>
 	<Item Name="Translation Chart View.vi" Type="VI" URL="../Translation Chart View.vi"/>
 </Library>

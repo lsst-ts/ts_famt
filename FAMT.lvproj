@@ -15,12 +15,14 @@
 		<Item Name="Commands" Type="Folder">
 			<Item Name="Command Factory.lvclass" Type="LVClass" URL="../Commands/Command Factory/Command Factory.lvclass"/>
 			<Item Name="Command.lvclass" Type="LVClass" URL="../Commands/Command/Command.lvclass"/>
+			<Item Name="Complete Testing Command.lvclass" Type="LVClass" URL="../Commands/Complete Testing Command/Complete Testing Command.lvclass"/>
 			<Item Name="Disable Command.lvclass" Type="LVClass" URL="../Commands/Disable Command/Disable Command.lvclass"/>
 			<Item Name="Enable Command.lvclass" Type="LVClass" URL="../Commands/Enable Command/Enable Command.lvclass"/>
+			<Item Name="Full Force Test Command.lvclass" Type="LVClass" URL="../Commands/Full Force Test Command/Full Force Test Command.lvclass"/>
 			<Item Name="Shutdown Command.lvclass" Type="LVClass" URL="../Commands/Shutdown Command/Shutdown Command.lvclass"/>
 			<Item Name="Standby Command.lvclass" Type="LVClass" URL="../Commands/Standby Command/Standby Command.lvclass"/>
 			<Item Name="Start Command.lvclass" Type="LVClass" URL="../Commands/Start Command/Start Command.lvclass"/>
-			<Item Name="Start Scan Command.lvclass" Type="LVClass" URL="../Commands/Start Scan Command/Start Scan Command.lvclass"/>
+			<Item Name="Start Testing Command.lvclass" Type="LVClass" URL="../Commands/Start Testing Command/Start Testing Command.lvclass"/>
 			<Item Name="Update Command.lvclass" Type="LVClass" URL="../Commands/Update Command/Update Command.lvclass"/>
 		</Item>
 		<Item Name="ConfigFiles" Type="Folder" URL="../ConfigFiles">
@@ -68,10 +70,10 @@
 			<Item Name="Enabled State.lvclass" Type="LVClass" URL="../States/Enabled State/Enabled State.lvclass"/>
 			<Item Name="Fault State.lvclass" Type="LVClass" URL="../States/Fault State/Fault State.lvclass"/>
 			<Item Name="Offline State.lvclass" Type="LVClass" URL="../States/Offline State/Offline State.lvclass"/>
-			<Item Name="Perform Scan State.lvclass" Type="LVClass" URL="../States/Perform Scan State/Perform Scan State.lvclass"/>
 			<Item Name="Standby State.lvclass" Type="LVClass" URL="../States/Standby State/Standby State.lvclass"/>
 			<Item Name="State Factory.lvclass" Type="LVClass" URL="../States/State Factory/State Factory.lvclass"/>
 			<Item Name="State.lvclass" Type="LVClass" URL="../States/State/State.lvclass"/>
+			<Item Name="Test Actuator State.lvclass" Type="LVClass" URL="../States/Test Actuator State/Test Actuator State.lvclass"/>
 			<Item Name="Wait For User Input State.lvclass" Type="LVClass" URL="../States/Wait For User Input State/Wait For User Input State.lvclass"/>
 		</Item>
 		<Item Name="User Events" Type="Folder">
