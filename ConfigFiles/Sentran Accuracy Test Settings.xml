@@ -4,16 +4,20 @@
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
-<Name>Force Accuracy Test Settings</Name>
-<NumElts>7</NumElts>
+<Name>Sentran Accuracy Test Settings</Name>
+<NumElts>5</NumElts>
 <DBL>
-<Name>Max Force Error (N)</Name>
+<Name>Force Tolerance (N)</Name>
 <Val>0.00000000000000</Val>
 </DBL>
+<Array>
+<Name>Force Modifies (%)</Name>
+<Dimsize>0</Dimsize>
 <DBL>
-<Name>Max Moment (NM)</Name>
-<Val>0.00000000000000</Val>
+<Name>Numeric</Name>
+<Val></Val>
 </DBL>
+</Array>
 <DBL>
 <Name>Process Time (s)</Name>
 <Val>0.00000000000000</Val>
@@ -22,16 +26,8 @@
 <Name>Sample Time (s)</Name>
 <Val>0.00000000000000</Val>
 </DBL>
-<I32>
-<Name>Iterations</Name>
-<Val>0</Val>
-</I32>
 <DBL>
-<Name>Amplitude (N)</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Non-Repeating Error</Name>
+<Name>Max Moment (NM)</Name>
 <Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
