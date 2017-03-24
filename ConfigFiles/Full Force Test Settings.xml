@@ -1,55 +1,59 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>15.0.1f1</Version>
+<Version>16.0</Version>
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
 <Name>Full Force Test Settings</Name>
-<NumElts>11</NumElts>
+<NumElts>6</NumElts>
 <DBL>
-<Name>Axial Force 1</Name>
+<Name>Force Tolerance (N)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>DAA Force Set Points</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>ForcePair</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Axial Force</Name>
+<Val></Val>
+</DBL>
+<DBL>
+<Name>Lateral Force</Name>
+<Val></Val>
+</DBL>
+</Cluster>
+</Array>
+<DBL>
+<Name>Process Time (s)</Name>
 <Val>0.00000000000000</Val>
 </DBL>
 <DBL>
-<Name>Lateral Force 1</Name>
+<Name>Sample Time (s)</Name>
 <Val>0.00000000000000</Val>
 </DBL>
 <DBL>
-<Name>Axial Force 2</Name>
+<Name>Max Moment (NM)</Name>
 <Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>SAA Force Set Points</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>ForcePair</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Axial Force</Name>
+<Val></Val>
 </DBL>
 <DBL>
-<Name>Lateral Force 2</Name>
-<Val>0.00000000000000</Val>
+<Name>Lateral Force</Name>
+<Val></Val>
 </DBL>
-<DBL>
-<Name>Axial Force 3</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Lateral Force 3</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Axial Force 4</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Lateral Force 4</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Sample Time</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Process Time</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Tolerance %</Name>
-<Val>0.00000000000000</Val>
-</DBL>
+</Cluster>
+</Array>
 </Cluster>
 </LvVariant>
 </LVData>
