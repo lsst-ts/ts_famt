@@ -36,6 +36,7 @@
 			<Item Name="Standby Command.lvclass" Type="LVClass" URL="../Commands/Standby Command/Standby Command.lvclass"/>
 			<Item Name="Start Command.lvclass" Type="LVClass" URL="../Commands/Start Command/Start Command.lvclass"/>
 			<Item Name="Start Testing Command.lvclass" Type="LVClass" URL="../Commands/Start Testing Command/Start Testing Command.lvclass"/>
+			<Item Name="Tracking Test Command.lvclass" Type="LVClass" URL="../Commands/Tracking Test Command/Tracking Test Command.lvclass"/>
 			<Item Name="Update Command.lvclass" Type="LVClass" URL="../Commands/Update Command/Update Command.lvclass"/>
 		</Item>
 		<Item Name="ConfigFiles" Type="Folder" URL="../ConfigFiles">

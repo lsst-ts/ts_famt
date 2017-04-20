@@ -32,6 +32,7 @@
 	<Item Name="TestSettings.ctl" Type="VI" URL="../TestSettings.ctl"/>
 	<Item Name="ToveyEngData.ctl" Type="VI" URL="../ToveyEngData.ctl"/>
 	<Item Name="ToveyRawData.ctl" Type="VI" URL="../ToveyRawData.ctl"/>
+	<Item Name="TrackingTestSettings.ctl" Type="VI" URL="../TrackingTestSettings.ctl"/>
 	<Item Name="WaveformSettings.ctl" Type="VI" URL="../WaveformSettings.ctl"/>
 	<Item Name="WaveformTypes.ctl" Type="VI" URL="../WaveformTypes.ctl"/>
 </Library>
