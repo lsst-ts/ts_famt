@@ -12,51 +12,51 @@
 <Val></Val>
 </Refnum>
 <Refnum>
-<Name>Tovey A-B Port</Name>
+<Name>Tovey X Port</Name>
 <RefKind>VISA</RefKind>
 <Val></Val>
 </Refnum>
 <Refnum>
-<Name>Tovey C-F Port</Name>
+<Name>Tovey Y Port</Name>
 <RefKind>VISA</RefKind>
 <Val></Val>
 </Refnum>
 <Refnum>
-<Name>Tovey D-E Port</Name>
+<Name>Tovey Z Port</Name>
 <RefKind>VISA</RefKind>
 <Val></Val>
 </Refnum>
 <EW>
-<Name>Tovey A-B Protocol</Name>
+<Name>Tovey X Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
 <Val>1</Val>
 </EW>
 <EW>
-<Name>Tovey C-F Protocol</Name>
+<Name>Tovey Y Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
 <Val>1</Val>
 </EW>
 <EW>
-<Name>Tovey D-E Protocol</Name>
+<Name>Tovey Z Protocol</Name>
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
 <Val>1</Val>
 </EW>
 <U8>
-<Name>Tovey A-B Address</Name>
+<Name>Tovey X Address</Name>
 <Val>3</Val>
 </U8>
 <U8>
-<Name>Tovey C-F Address</Name>
+<Name>Tovey Y Address</Name>
 <Val>1</Val>
 </U8>
 <U8>
-<Name>Tovey D-E Address</Name>
+<Name>Tovey Z Address</Name>
 <Val>1</Val>
 </U8>
 </Cluster>

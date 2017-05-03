@@ -25,6 +25,7 @@
 	<Item Name="ScanProgress.ctl" Type="VI" URL="../ScanProgress.ctl"/>
 	<Item Name="SentranAccuracyTestSettings.ctl" Type="VI" URL="../SentranAccuracyTestSettings.ctl"/>
 	<Item Name="SerialSettings.ctl" Type="VI" URL="../SerialSettings.ctl"/>
+	<Item Name="SlewingTestSettings.ctl" Type="VI" URL="../SlewingTestSettings.ctl"/>
 	<Item Name="StateTypes.ctl" Type="VI" URL="../StateTypes.ctl"/>
 	<Item Name="Subscribe Data Events.ctl" Type="VI" URL="../Subscribe Data Events.ctl"/>
 	<Item Name="TestData.ctl" Type="VI" URL="../TestData.ctl"/>

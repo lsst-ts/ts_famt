@@ -1,0 +1,39 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Slewing Test Settings</Name>
+<NumElts>7</NumElts>
+<DBL>
+<Name>Max Force Error (N)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Max Moment (NM)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Amplitude (N)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Max Instance Force Error (N)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Ramp Time (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Hold Time (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Settling Time (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</LvVariant>
+</LVData>

@@ -33,6 +33,7 @@
 			<Item Name="Operational Force Test Command.lvclass" Type="LVClass" URL="../Commands/Operational Force Test Command/Operational Force Test Command.lvclass"/>
 			<Item Name="Sentran Accuracy Test Command.lvclass" Type="LVClass" URL="../Commands/Sentran Accuracy Test Command/Sentran Accuracy Test Command.lvclass"/>
 			<Item Name="Shutdown Command.lvclass" Type="LVClass" URL="../Commands/Shutdown Command/Shutdown Command.lvclass"/>
+			<Item Name="Slewing Test Command.lvclass" Type="LVClass" URL="../Commands/Slewing Test Command/Slewing Test Command.lvclass"/>
 			<Item Name="Standby Command.lvclass" Type="LVClass" URL="../Commands/Standby Command/Standby Command.lvclass"/>
 			<Item Name="Start Command.lvclass" Type="LVClass" URL="../Commands/Start Command/Start Command.lvclass"/>
 			<Item Name="Start Testing Command.lvclass" Type="LVClass" URL="../Commands/Start Testing Command/Start Testing Command.lvclass"/>
