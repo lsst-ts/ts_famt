@@ -9,22 +9,22 @@
 <Refnum>
 <Name>ILC Port</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>COM6</Val>
 </Refnum>
 <Refnum>
 <Name>Tovey X Port</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>COM4</Val>
 </Refnum>
 <Refnum>
 <Name>Tovey Y Port</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>COM5</Val>
 </Refnum>
 <Refnum>
 <Name>Tovey Z Port</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>COM3</Val>
 </Refnum>
 <EW>
 <Name>Tovey X Protocol</Name>
@@ -49,7 +49,7 @@
 </EW>
 <U8>
 <Name>Tovey X Address</Name>
-<Val>3</Val>
+<Val>1</Val>
 </U8>
 <U8>
 <Name>Tovey Y Address</Name>

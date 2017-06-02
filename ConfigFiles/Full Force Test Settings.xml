@@ -8,7 +8,7 @@
 <NumElts>6</NumElts>
 <DBL>
 <Name>Force Tolerance (N)</Name>
-<Val>0.00000000000000</Val>
+<Val>182.15000000000001</Val>
 </DBL>
 <Array>
 <Name>DAA Force Set Points</Name>
@@ -28,29 +28,41 @@
 </Array>
 <DBL>
 <Name>Process Time (s)</Name>
-<Val>0.00000000000000</Val>
+<Val>3.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Sample Time (s)</Name>
-<Val>0.00000000000000</Val>
+<Val>6.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Max Moment (NM)</Name>
-<Val>0.00000000000000</Val>
+<Val>0.11000000000000</Val>
 </DBL>
 <Array>
 <Name>SAA Force Set Points</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>2</Dimsize>
 <Cluster>
 <Name>ForcePair</Name>
 <NumElts>2</NumElts>
 <DBL>
 <Name>Axial Force</Name>
-<Val></Val>
+<Val>3643.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Lateral Force</Name>
-<Val></Val>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>ForcePair</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Axial Force</Name>
+<Val>-3643.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lateral Force</Name>
+<Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
 </Array>

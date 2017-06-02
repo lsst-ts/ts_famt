@@ -8,6 +8,7 @@
 	<Item Name="ActuatorSensorSettings.ctl" Type="VI" URL="../ActuatorSensorSettings.ctl"/>
 	<Item Name="ActuatorSetPoints.ctl" Type="VI" URL="../ActuatorSetPoints.ctl"/>
 	<Item Name="ActuatorTypes.ctl" Type="VI" URL="../ActuatorTypes.ctl"/>
+	<Item Name="AllTestStatus.ctl" Type="VI" URL="../AllTestStatus.ctl"/>
 	<Item Name="CommandTypes.ctl" Type="VI" URL="../CommandTypes.ctl"/>
 	<Item Name="ConnectionSettings.ctl" Type="VI" URL="../ConnectionSettings.ctl"/>
 	<Item Name="DifferentialPressureReleaseValveTestSettings.ctl" Type="VI" URL="../DifferentialPressureReleaseValveTestSettings.ctl"/>
@@ -31,6 +32,7 @@
 	<Item Name="TestData.ctl" Type="VI" URL="../TestData.ctl"/>
 	<Item Name="TestLogTypes.ctl" Type="VI" URL="../TestLogTypes.ctl"/>
 	<Item Name="TestSettings.ctl" Type="VI" URL="../TestSettings.ctl"/>
+	<Item Name="TestStatus.ctl" Type="VI" URL="../TestStatus.ctl"/>
 	<Item Name="ToveyEngData.ctl" Type="VI" URL="../ToveyEngData.ctl"/>
 	<Item Name="ToveyRawData.ctl" Type="VI" URL="../ToveyRawData.ctl"/>
 	<Item Name="TrackingTestSettings.ctl" Type="VI" URL="../TrackingTestSettings.ctl"/>

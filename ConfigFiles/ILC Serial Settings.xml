@@ -33,7 +33,7 @@
 </U16>
 <U32>
 <Name>Timeout (ms)</Name>
-<Val>2000</Val>
+<Val>20</Val>
 </U32>
 <U32>
 <Name>Byte Count</Name>

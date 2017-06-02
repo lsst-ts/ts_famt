@@ -8,7 +8,7 @@
 <NumElts>9</NumElts>
 <U32>
 <Name>Baud Rate</Name>
-<Val>9600</Val>
+<Val>19200</Val>
 </U32>
 <U16>
 <Name>Data Bits</Name>
@@ -33,7 +33,7 @@
 </U16>
 <U32>
 <Name>Timeout (ms)</Name>
-<Val>10000</Val>
+<Val>2000</Val>
 </U32>
 <U32>
 <Name>Byte Count</Name>
@@ -41,11 +41,11 @@
 </U32>
 <Boolean>
 <Name>Enable Termination Character</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <U8>
 <Name>Termination Char</Name>
-<Val>200</Val>
+<Val>13</Val>
 </U8>
 </Cluster>
 </LvVariant>
