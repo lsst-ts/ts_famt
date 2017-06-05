@@ -8,27 +8,39 @@
 <NumElts>5</NumElts>
 <DBL>
 <Name>Force Tolerance (N)</Name>
-<Val>0.00000000000000</Val>
+<Val>2.90000000000000</Val>
 </DBL>
 <Array>
 <Name>Force Modifies (%)</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>4</Dimsize>
 <DBL>
 <Name>Numeric</Name>
-<Val></Val>
+<Val>0.25000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.75000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>1.00000000000000</Val>
 </DBL>
 </Array>
 <DBL>
 <Name>Process Time (s)</Name>
-<Val>0.00000000000000</Val>
+<Val>3.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Sample Time (s)</Name>
-<Val>0.00000000000000</Val>
+<Val>6.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Max Moment (NM)</Name>
-<Val>0.00000000000000</Val>
+<Val>2.00000000000000</Val>
 </DBL>
 </Cluster>
 </LvVariant>

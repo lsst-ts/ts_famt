@@ -8,31 +8,31 @@
 <NumElts>7</NumElts>
 <DBL>
 <Name>Max Force Error (N)</Name>
-<Val>0.00000000000000</Val>
+<Val>200.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Max Moment (NM)</Name>
-<Val>0.00000000000000</Val>
+<Val>2.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Process Time (s)</Name>
-<Val>0.00000000000000</Val>
+<Val>3.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Sample Time (s)</Name>
-<Val>0.00000000000000</Val>
+<Val>6.00000000000000</Val>
 </DBL>
 <I32>
 <Name>Iterations</Name>
-<Val>0</Val>
+<Val>4</Val>
 </I32>
 <DBL>
 <Name>Amplitude (N)</Name>
-<Val>0.00000000000000</Val>
+<Val>1500.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Non-Repeating Error</Name>
-<Val>0.00000000000000</Val>
+<Val>0.11000000000000</Val>
 </DBL>
 </Cluster>
 </LvVariant>
