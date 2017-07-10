@@ -13,7 +13,7 @@
 	<Item Name="ConnectionSettings.ctl" Type="VI" URL="../ConnectionSettings.ctl"/>
 	<Item Name="DifferentialPressureReleaseValveTestSettings.ctl" Type="VI" URL="../DifferentialPressureReleaseValveTestSettings.ctl"/>
 	<Item Name="ForceAccuracyTestSettings.ctl" Type="VI" URL="../ForceAccuracyTestSettings.ctl"/>
-	<Item Name="ForceActuatorPIDSettings.ctl" Type="VI" URL="../ForceActuatorPIDSettings.ctl"/>
+	<Item Name="ForceActuatorBoosterValveGainSettings.ctl" Type="VI" URL="../ForceActuatorBoosterValveGainSettings.ctl"/>
 	<Item Name="ForcePair.ctl" Type="VI" URL="../ForcePair.ctl"/>
 	<Item Name="ForceTableEntry.ctl" Type="VI" URL="../ForceTableEntry.ctl"/>
 	<Item Name="ForceTableSettings.ctl" Type="VI" URL="../ForceTableSettings.ctl"/>

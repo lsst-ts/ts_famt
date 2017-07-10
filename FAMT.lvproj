@@ -39,6 +39,7 @@
 			<Item Name="Start Testing Command.lvclass" Type="LVClass" URL="../Commands/Start Testing Command/Start Testing Command.lvclass"/>
 			<Item Name="Tracking Test Command.lvclass" Type="LVClass" URL="../Commands/Tracking Test Command/Tracking Test Command.lvclass"/>
 			<Item Name="Update Command.lvclass" Type="LVClass" URL="../Commands/Update Command/Update Command.lvclass"/>
+			<Item Name="Zero Force Test Command.lvclass" Type="LVClass" URL="../Commands/Zero Force Test Command/Zero Force Test Command.lvclass"/>
 		</Item>
 		<Item Name="ConfigFiles" Type="Folder" URL="../ConfigFiles">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -94,7 +95,6 @@
 		<Item Name="User Events" Type="Folder">
 			<Item Name="User Events.lvclass" Type="LVClass" URL="../User Events/User Events.lvclass"/>
 		</Item>
-		<Item Name="Change ILC Mode.vi" Type="VI" URL="../Change ILC Mode.vi"/>
 		<Item Name="ConfigurationEditor.lvclass" Type="LVClass" URL="../Common_ConfigurationEditor/ConfigurationEditor.lvclass"/>
 		<Item Name="ConfigurationReader.lvclass" Type="LVClass" URL="../Common_ConfigurationReader/ConfigurationReader.lvclass"/>
 		<Item Name="FAMT Typedefs.lvlib" Type="Library" URL="../Typedefs/FAMT Typedefs.lvlib"/>
@@ -105,9 +105,6 @@
 		<Item Name="RTModbus.lvlib" Type="Library" URL="../Common_RT_Modbus/RTModbus.lvlib"/>
 		<Item Name="SerialProtocols.lvlib" Type="Library" URL="../Common_SerialProtocols/SerialProtocols.lvlib"/>
 		<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="../Common_Simulators_SimulateSerialData/SimulateSerialData.lvclass"/>
-		<Item Name="Test.vi" Type="VI" URL="/C/Users/CContaxis/Documents/Test.vi"/>
-		<Item Name="TestModbus.vi" Type="VI" URL="../../TestModbus.vi"/>
-		<Item Name="TestSerial.vi" Type="VI" URL="../TestSerial.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
