@@ -5,7 +5,7 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Slewing Test Settings</Name>
-<NumElts>7</NumElts>
+<NumElts>9</NumElts>
 <DBL>
 <Name>Max Force Error (N)</Name>
 <Val>114.00000000000000</Val>
@@ -20,7 +20,7 @@
 </DBL>
 <DBL>
 <Name>Max Instance Force Error (N)</Name>
-<Val>200.00000000000000</Val>
+<Val>500.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Ramp Time (s)</Name>
@@ -32,7 +32,15 @@
 </DBL>
 <DBL>
 <Name>Settling Time (s)</Name>
-<Val>3.00000000000000</Val>
+<Val>4.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Settling Repeating Error</Name>
+<Val>2.89000000000000</Val>
+</DBL>
+<DBL>
+<Name>Settling Non-Repeating Error</Name>
+<Val>0.88000000000000</Val>
 </DBL>
 </Cluster>
 </LvVariant>

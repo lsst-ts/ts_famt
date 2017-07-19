@@ -8,7 +8,7 @@
 <NumElts>5</NumElts>
 <DBL>
 <Name>Force Tolerance (N)</Name>
-<Val>2.90000000000000</Val>
+<Val>5.00000000000000</Val>
 </DBL>
 <Array>
 <Name>Force Modifies (%)</Name>
