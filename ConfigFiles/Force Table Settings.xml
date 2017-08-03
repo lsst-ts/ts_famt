@@ -8,7 +8,7 @@
 <NumElts>1</NumElts>
 <Array>
 <Name>Entries</Name>
-<Dimsize>44</Dimsize>
+<Dimsize>45</Dimsize>
 <Cluster>
 <Name>Force Table Entry</Name>
 <NumElts>2</NumElts>
@@ -1589,6 +1589,66 @@
 <DBL>
 <Name>Lateral Force</Name>
 <Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Force Table Entry</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>ID</Name>
+<Val>334</Val>
+</String>
+<Array>
+<Name>Force Set Points</Name>
+<Dimsize>4</Dimsize>
+<Cluster>
+<Name>ForcePair</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Axial Force</Name>
+<Val>800.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lateral Force</Name>
+<Val>400.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>ForcePair</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Axial Force</Name>
+<Val>800.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lateral Force</Name>
+<Val>-400.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>ForcePair</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Axial Force</Name>
+<Val>-800.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lateral Force</Name>
+<Val>-400.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>ForcePair</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Axial Force</Name>
+<Val>-800.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lateral Force</Name>
+<Val>400.00000000000000</Val>
 </DBL>
 </Cluster>
 </Array>

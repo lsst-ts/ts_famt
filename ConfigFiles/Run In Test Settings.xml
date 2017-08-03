@@ -1,0 +1,19 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Run In Test Settings</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Hold Time (s)</Name>
+<Val>0.25000000000000</Val>
+</DBL>
+<I32>
+<Name>Iterations</Name>
+<Val>100</Val>
+</I32>
+</Cluster>
+</LvVariant>
+</LVData>

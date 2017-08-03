@@ -5,14 +5,10 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Tracking Test Settings</Name>
-<NumElts>7</NumElts>
+<NumElts>6</NumElts>
 <DBL>
-<Name>Max Force Error (N)</Name>
+<Name>Repeating Error (N)</Name>
 <Val>2.90000000000000</Val>
-</DBL>
-<DBL>
-<Name>Max Moment (NM)</Name>
-<Val>2.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Process Time (s)</Name>

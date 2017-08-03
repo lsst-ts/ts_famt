@@ -5,14 +5,10 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Operational Force Test Settings</Name>
-<NumElts>4</NumElts>
+<NumElts>3</NumElts>
 <DBL>
 <Name>Max Force Error (N)</Name>
 <Val>9.50000000000000</Val>
-</DBL>
-<DBL>
-<Name>Max Moment (NM)</Name>
-<Val>3.40000000000000</Val>
 </DBL>
 <DBL>
 <Name>Process Time (s)</Name>

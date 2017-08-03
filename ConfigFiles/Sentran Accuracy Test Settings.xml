@@ -5,7 +5,7 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Sentran Accuracy Test Settings</Name>
-<NumElts>5</NumElts>
+<NumElts>4</NumElts>
 <DBL>
 <Name>Force Tolerance (N)</Name>
 <Val>5.00000000000000</Val>
@@ -37,10 +37,6 @@
 <DBL>
 <Name>Sample Time (s)</Name>
 <Val>6.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Max Moment (NM)</Name>
-<Val>2.00000000000000</Val>
 </DBL>
 </Cluster>
 </LvVariant>

@@ -7,7 +7,7 @@
 <Name>Force Accuracy Test Settings</Name>
 <NumElts>8</NumElts>
 <DBL>
-<Name>Max Force Error (N)</Name>
+<Name>Repeating Error (N)</Name>
 <Val>2.89000000000000</Val>
 </DBL>
 <DBL>

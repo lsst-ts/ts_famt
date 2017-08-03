@@ -23,6 +23,7 @@
 	<Item Name="LogPath.ctl" Type="VI" URL="../LogPath.ctl"/>
 	<Item Name="OperationalForceTestSettings.ctl" Type="VI" URL="../OperationalForceTestSettings.ctl"/>
 	<Item Name="Publish Data Events.ctl" Type="VI" URL="../Publish Data Events.ctl"/>
+	<Item Name="RunInSettings.ctl" Type="VI" URL="../RunInSettings.ctl"/>
 	<Item Name="ScanProgress.ctl" Type="VI" URL="../ScanProgress.ctl"/>
 	<Item Name="SentranAccuracyTestSettings.ctl" Type="VI" URL="../SentranAccuracyTestSettings.ctl"/>
 	<Item Name="SerialSettings.ctl" Type="VI" URL="../SerialSettings.ctl"/>
